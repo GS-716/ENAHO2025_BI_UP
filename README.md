@@ -20,4 +20,4 @@ fact_condiciones_hogar
 
 Grano:
 1 hogar encuestado
-Hola
+
