@@ -1,43 +1,52 @@
-La evaluación del bienestar habitacional y la vulnerabilidad de los hogares requiere un enfoque multidimensional que considere no solo la pobreza monetaria, sino también otras privaciones estructurales que afectan la calidad de vida. La Encuesta Nacional de Hogares (ENAHO) constituye la fuente oficial de información en Perú para medir estas condiciones, proporcionando datos sobre ingresos, vivienda, servicios básicos, conectividad digital y gasto del hogar, con cobertura nacional y representatividad urbano-rural, departamental y por dominios geográficos (Instituto Nacional de Estadística e Informática [INEI], 2025a; Clausen et al., 2025). Esta base permite construir un datamart capaz de integrar distintas dimensiones del bienestar y soportar análisis comparativos y narrativas de datos.
+La evaluación del bienestar habitacional y la vulnerabilidad de los hogares requiere un enfoque multidimensional que considere no solo la pobreza monetaria, sino también otras privaciones 
+estructurales que afectan la calidad de vida. La Encuesta Nacional de Hogares (ENAHO) constituye la fuente oficial de información en Perú para medir estas condiciones, proporcionando datos 
+sobre ingresos, vivienda, servicios básicos, conectividad digital y gasto del hogar, con cobertura nacional y representatividad urbano-rural, departamental y por dominios geográficos 
+(Instituto Nacional de Estadística e Informática [INEI], 2025a; Clausen et al., 2025). Esta base permite construir un datamart capaz de integrar distintas dimensiones del bienestar y 
+soportar análisis comparativos y narrativas de datos.
 
-La pobreza multidimensional y el enfoque de Necesidades Básicas Insatisfechas (NBI) constituyen el fundamento teórico para medir la vulnerabilidad estructural de los hogares. La metodología de Feres y Mancero (2001) permite identificar privaciones en vivienda, acceso a agua potable, saneamiento, número de cuartos y nivel educativo, construyendo mapas de pobreza territorialmente comparables. Por su parte, Alkire y Foster (2008) proponen una estrategia de identificación basada en umbrales dentro y entre dimensiones, que permite determinar qué hogares enfrentan privaciones simultáneas y garantizar propiedades de descomponibilidad y la utilización de variables ordinales y categóricas. Este enfoque teórico sustenta la decisión de organizar los datos de ENAHO en un modelo dimensional, donde cada fila representa un hogar y sus características en un periodo determinado.
+La pobreza multidimensional y el enfoque de Necesidades Básicas Insatisfechas (NBI) constituyen el fundamento teórico para medir la vulnerabilidad estructural de los hogares. La metodología 
+de Feres y Mancero (2001) permite identificar privaciones en vivienda, acceso a agua potable, saneamiento, número de cuartos y nivel educativo, construyendo mapas de pobreza territorialmente 
+comparables. Por su parte, Alkire y Foster (2008) proponen una estrategia de identificación basada en umbrales dentro y entre dimensiones, que permite determinar qué hogares enfrentan 
+privaciones simultáneas y garantizar propiedades de descomponibilidad y la utilización de variables ordinales y categóricas. Este enfoque teórico sustenta la decisión de organizar los datos 
+de ENAHO en un modelo dimensional, donde cada fila representa un hogar y sus características en un periodo determinado.
 
-El concepto de vivienda adecuada es central para interpretar la habitabilidad y el acceso a servicios. Se considera vivienda adecuada aquella que combina durabilidad estructural, seguridad de tenencia, espacio suficiente, asequibilidad y acceso a agua y saneamiento mejorados (Naciones Unidas, 2021). El hacinamiento y la mala calidad habitacional están asociados con riesgos sanitarios y sociales, incluyendo enfermedades respiratorias, estrés y plagas, lo que hace que variables como número de habitaciones, dormitorios y flag de hacinamiento funcionen como indicadores tanto físicos como de vulnerabilidad social (Lorentzen et al., 2022; World Health Organization [WHO], 2018). La literatura peruana indica que el déficit habitacional no solo es cuantitativo, sino también cualitativo, afectando materiales, servicios y sobreocupación (Villanueva-Paredes & Villanueva-Paredes, 2023).
+El concepto de vivienda adecuada es central para interpretar la habitabilidad y el acceso a servicios. Se considera vivienda adecuada aquella que combina durabilidad estructural, seguridad 
+de tenencia, espacio suficiente, asequibilidad y acceso a agua y saneamiento mejorados (Naciones Unidas, 2021). El hacinamiento y la mala calidad habitacional están asociados con riesgos 
+sanitarios y sociales, incluyendo enfermedades respiratorias, estrés y plagas, lo que hace que variables como número de habitaciones, dormitorios y flag de hacinamiento funcionen como 
+indicadores tanto físicos como de vulnerabilidad social (Lorentzen et al., 2022; World Health Organization [WHO], 2018). La literatura peruana indica que el déficit habitacional no solo 
+es cuantitativo, sino también cualitativo, afectando materiales, servicios y sobreocupación (Villanueva-Paredes & Villanueva-Paredes, 2023).
 
-El acceso a servicios y la conectividad digital constituyen dimensiones esenciales del bienestar, actuando como mediadoras del desarrollo y reflejando desigualdades estructurales entre territorios. La disponibilidad de internet y de equipos informáticos no solo facilita la inclusión social y económica, sino que también evidencia brechas significativas entre áreas urbanas y rurales, con impactos directos sobre la capacidad de los hogares de acceder a información, educación y servicios en línea (Flores-Cueto et al., 2020; Vidal et al., 2026). Este panorama justifica la inclusión de variables de conectividad en el datamart y su análisis junto con vivienda, geografía y estrato socioeconómico.
+El acceso a servicios y la conectividad digital constituyen dimensiones esenciales del bienestar, actuando como mediadoras del desarrollo y reflejando desigualdades estructurales entre 
+territorios. La disponibilidad de internet y de equipos informáticos no solo facilita la inclusión social y económica, sino que también evidencia brechas significativas entre áreas urbanas 
+y rurales, con impactos directos sobre la capacidad de los hogares de acceder a información, educación y servicios en línea (Flores-Cueto et al., 2020; Vidal et al., 2026). Este panorama 
+justifica la inclusión de variables de conectividad en el datamart y su análisis junto con vivienda, geografía y estrato socioeconómico.
 
-El gasto del hogar representa una segunda dimensión que complementa las medidas estructurales de pobreza, al reflejar la carga económica asociada a mantener servicios y vivienda adecuada. Estudios muestran que hogares con ingresos similares pueden experimentar cargas diferenciadas según su consumo y calidad de servicios, lo que resalta la importancia de incorporar información sobre gasto total en servicios, alquiler imputado y créditos asociados a vivienda en el análisis de vulnerabilidad (Deaton, 1997; Galarza et al., 2022).
+El gasto del hogar representa una segunda dimensión que complementa las medidas estructurales de pobreza, al reflejar la carga económica asociada a mantener servicios y vivienda adecuada. 
+Estudios muestran que hogares con ingresos similares pueden experimentar cargas diferenciadas según su consumo y calidad de servicios, lo que resalta la importancia de incorporar información 
+sobre gasto total en servicios, alquiler imputado y créditos asociados a vivienda en el análisis de vulnerabilidad (Deaton, 1997; Galarza et al., 2022).
 
-El diseño del datamart se fundamenta en un modelo estrella, siguiendo las recomendaciones de Kimball y Ross (2013) y Moody y Kortink (2000), donde el hecho central es el hogar en un periodo determinado y las dimensiones incluyen vivienda, habitabilidad, servicios, gasto, conectividad y geografía. Esta arquitectura permite analizar la vulnerabilidad multidimensional de manera integrada, realizar comparaciones territoriales, generar dashboards y soportar narrativas basadas en evidencia, garantizando que los análisis sean auditable y reutilizable en entornos de inteligencia analítica y business intelligence.
+El diseño del datamart se fundamenta en un modelo estrella, siguiendo las recomendaciones de Kimball y Ross (2013) y Moody y Kortink (2000), donde el hecho central es el hogar en un periodo 
+determinado y las dimensiones incluyen vivienda, habitabilidad, servicios, gasto, conectividad y geografía. Esta arquitectura permite analizar la vulnerabilidad multidimensional de manera 
+integrada, realizar comparaciones territoriales, generar dashboards y soportar narrativas basadas en evidencia, garantizando que los análisis sean auditable y reutilizable en entornos de 
+inteligencia analítica y business intelligence.
 
-En conclusión, la integración de indicadores de NBI, habitabilidad, servicios, conectividad y gasto del hogar en un datamart ponderado proporciona un marco coherente para la interpretación del bienestar habitacional en Perú. Esta estructura no solo traduce la teoría de pobreza multidimensional y vivienda adecuada en un modelo analítico, sino que permite una lectura integrada de las privaciones estructurales y cargas económicas, garantizando un soporte sólido para análisis comparativos y decisiones basadas en evidencia.
+En conclusión, la integración de indicadores de NBI, habitabilidad, servicios, conectividad y gasto del hogar en un datamart ponderado proporciona un marco coherente para la interpretación 
+del bienestar habitacional en Perú. Esta estructura no solo traduce la teoría de pobreza multidimensional y vivienda adecuada en un modelo analítico, sino que permite una lectura integrada 
+de las privaciones estructurales y cargas económicas, garantizando un soporte sólido para análisis comparativos y decisiones basadas en evidencia.
 
-Referencias
+Referencias:
 
 Alkire, S., & Foster, J. (2008). Counting and multidimensional poverty measurement (OPHI Working Paper No. 7). University of Oxford. https://ophi.org.uk/sites/default/files/ophi-wp7_vs2.pdf
-
 Clausen, J., Barrantes, N., Trivelli, C., & Salas, F. (2025). Evaluating poverty in all its forms and dimensions: Monetary, multidimensional, and subjective poverty in Peru. Social Indicators Research, 179, 861–893. https://doi.org/10.1007/s11205-025-03641-7
-
 Deaton, A. (1997). The analysis of household surveys: A microeconometric approach to development policy. Johns Hopkins University Press.
-
 Feres, J. C., & Mancero, X. (2001). El método de las necesidades básicas insatisfechas y sus aplicaciones en América Latina. CEPAL.
-
 Flores-Cueto, J. J., Hernández, R. M., & Garay-Argandoña, R. (2020). Tecnologías de información: Acceso a internet y brecha digital en Perú. Revista Venezolana de Gerencia, 25(90), 504–527.
-
 Galarza, F. B., Carbajal, M., & Aguirre, J. (2022). Willingness to pay for improved water service: Evidence from urban Peru. Peruvian Economic Association.
-
 Instituto Nacional de Estadística e Informática. (2025a). Encuesta Nacional de Hogares 2024: Diccionario de datos.
-
 Instituto Nacional de Estadística e Informática. (2025d). Perú: Tecnologías de información y comunicación en los hogares, II trimestre 2025.
-
 Kimball, R., & Ross, M. (2013). The data warehouse toolkit: The definitive guide to dimensional modeling (3rd ed.). John Wiley & Sons.
-
 Lorentzen, J. C., Johanson, G., Björk, F., & Stensson, S. (2022). Overcrowding and hazardous dwelling condition characteristics. International Journal of Environmental Research and Public Health, 19(23), 15542. https://doi.org/10.3390/ijerph192315542
-
 Moody, D. L., & Kortink, M. A. R. (2000). From enterprise models to dimensional models. CEUR Workshop Proceedings, 28.
-
 Naciones Unidas. (2021). Metadata for Sustainable Development Goal indicator 11.1.1.
-
 Villanueva-Paredes, K. S., & Villanueva-Paredes, G. X. (2023). Policies and mechanisms of public financing for social housing in Peru. Sustainability, 15(11), 8919. https://doi.org/10.3390/su15118919
-
 World Health Organization. (2018). WHO housing and health guidelines.
