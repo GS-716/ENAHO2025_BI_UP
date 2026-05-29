@@ -1,0 +1,12 @@
+# Descripción de la Empresa y Problemática
+
+El Instituto Nacional de Estadística e Informática (INEI) es el organismo técnico especializado encargado de producir y difundir información estadística oficial en el Perú. Entre sus principales investigaciones se encuentra la Encuesta Nacional de Hogares (ENAHO), estudio de alcance nacional que recopila información sobre las condiciones de vida de la población peruana en aspectos relacionados con vivienda, educación, salud, empleo, ingresos y acceso a servicios básicos.
+
+Dentro de esta investigación, el módulo 100 denominado “Características de la Vivienda y del Hogar” reúne información vinculada a las condiciones habitacionales de los hogares peruanos, considerando variables como el tipo de vivienda, materiales de construcción, acceso a agua potable, saneamiento, electricidad, internet y gastos asociados a estos servicios. Esta información resulta fundamental para analizar la calidad de vida de la población y las desigualdades existentes entre distintos sectores del país.
+
+En el Perú, durante el año 2025, continúan existiendo brechas significativas en las condiciones de vivienda, acceso a servicios básicos y conectividad de los hogares. Muchos hogares, especialmente en zonas rurales y sectores vulnerables, presentan limitaciones en el acceso continuo a servicios esenciales como agua potable, desagüe, electricidad e internet, así como condiciones habitacionales inadecuadas relacionadas con los materiales de construcción y disponibilidad de espacios adecuados para vivir.
+
+Del mismo modo, existen diferencias importantes en el gasto que realizan los hogares para mantener estos servicios, evidenciando desigualdades económicas y limitaciones en la capacidad de acceso a condiciones de vida adecuadas. Estas brechas afectan directamente la calidad de vida de la población y dificultan el desarrollo equitativo entre las diferentes regiones y estratos socioeconómicos del país.
+
+Frente a esta problemática, se propone el desarrollo de un datamart orientado al análisis de las condiciones de vivienda y acceso a servicios básicos de los hogares peruanos, utilizando información del módulo 100 de la ENAHO 2025. El objetivo es integrar, transformar y estructurar los datos mediante procesos ETL y modelado dimensional, facilitando la generación de indicadores y dashboards que permitan identificar patrones, comparar niveles de acceso y analizar las diferencias existentes entre hogares, regiones y grupos poblacionales.
+
