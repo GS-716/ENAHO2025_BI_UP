@@ -23,5 +23,5 @@ Grano:
 
 
 
-<img src="outputs/diagrams/erd\_enaho2025\_resumen.png" alt="Modelo relacional" width="800">
+<img src="outputs/diagrams/erd_enaho2025_resumen_compacto.png" alt="Modelo relacional" width="800">
 
