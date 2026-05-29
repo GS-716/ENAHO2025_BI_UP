@@ -21,3 +21,5 @@ fact_condiciones_hogar
 Grano:
 1 hogar encuestado
 
+vrini estuvo aquí
+
