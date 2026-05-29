@@ -1,25 +1,27 @@
-# ENAHO2025_BI_UP
+# ENAHO2025\_BI\_UP
 
 Fuente principal:
 ENAHO01-2025-100.csv
 
 Tabla raw:
-enaho_raw_hogar
+enaho\_raw\_hogar
 
 Dimensiones:
-dim_tiempo
-dim_ubicacion
-dim_vivienda
-dim_material_vivienda
-dim_servicios_basicos
-dim_tecnologia
-dim_tenencia
+dim\_tiempo
+dim\_ubicacion
+dim\_vivienda
+dim\_material\_vivienda
+dim\_servicios\_basicos
+dim\_tecnologia
+dim\_tenencia
 
 Fact:
-fact_condiciones_hogar
+fact\_condiciones\_hogar
 
 Grano:
 1 hogar encuestado
 
-vrini estuvo aquí
+
+
+<img src="outputs/diagrams/erd\_enaho2025\_resumen.png" alt="Modelo relacional" width="800">
 
