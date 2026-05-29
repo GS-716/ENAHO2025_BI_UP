@@ -1,0 +1,641 @@
+digraph ERD_ENAHO_2025 {
+	nodesep=0.7 pad=0.3 rankdir=LR ranksep=1.0 splines=ortho
+	bgcolor=white
+	node [fontname=Helvetica shape=plaintext]
+	edge [color="#6B7280" penwidth=1.3]
+	subgraph cluster_left {
+		rank=same
+		color=white
+		dim_tiempo [label=<
+    <TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="6" COLOR="#1F3A5F">
+        <TR>
+            <TD BGCOLOR="#0B2E63" COLSPAN="3">
+                <FONT COLOR="#FFFFFF"><B>dim_tiempo</B></FONT>
+            </TD>
+        </TR>
+        <TR>
+            <TD BGCOLOR="#DCE9F9"><B>Clave</B></TD>
+            <TD BGCOLOR="#DCE9F9"><B>Columna</B></TD>
+            <TD BGCOLOR="#DCE9F9"><B>Tipo</B></TD>
+        </TR>
+    
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER">PK</TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica"><B>tiempo_key</B></FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">BIGINT</FONT></TD>
+        </TR>
+        
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER"></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica">anio</FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">BIGINT</FONT></TD>
+        </TR>
+        
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER"></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica">mes</FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">BIGINT</FONT></TD>
+        </TR>
+        
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER"></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica">periodo</FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">BIGINT</FONT></TD>
+        </TR>
+        </TABLE>>]
+		dim_geografia [label=<
+    <TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="6" COLOR="#1F3A5F">
+        <TR>
+            <TD BGCOLOR="#0B2E63" COLSPAN="3">
+                <FONT COLOR="#FFFFFF"><B>dim_geografia</B></FONT>
+            </TD>
+        </TR>
+        <TR>
+            <TD BGCOLOR="#DCE9F9"><B>Clave</B></TD>
+            <TD BGCOLOR="#DCE9F9"><B>Columna</B></TD>
+            <TD BGCOLOR="#DCE9F9"><B>Tipo</B></TD>
+        </TR>
+    
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER">PK</TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica"><B>geografia_key</B></FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">BIGINT</FONT></TD>
+        </TR>
+        
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER"></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica">ubigeo</FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">BIGINT</FONT></TD>
+        </TR>
+        
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER"></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica">dominio_cod</FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">BIGINT</FONT></TD>
+        </TR>
+        
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER"></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica">dominio</FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">TEXT</FONT></TD>
+        </TR>
+        
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER"></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica">estrato_cod</FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">BIGINT</FONT></TD>
+        </TR>
+        
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER"></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica">estrato</FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">TEXT</FONT></TD>
+        </TR>
+        
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER"></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica">latitud</FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">DOUBLE</FONT></TD>
+        </TR>
+        
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER"></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica">longitud</FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">DOUBLE</FONT></TD>
+        </TR>
+        
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER"></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica">altitud</FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">DOUBLE</FONT></TD>
+        </TR>
+        </TABLE>>]
+		dim_vivienda [label=<
+    <TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="6" COLOR="#1F3A5F">
+        <TR>
+            <TD BGCOLOR="#0B2E63" COLSPAN="3">
+                <FONT COLOR="#FFFFFF"><B>dim_vivienda</B></FONT>
+            </TD>
+        </TR>
+        <TR>
+            <TD BGCOLOR="#DCE9F9"><B>Clave</B></TD>
+            <TD BGCOLOR="#DCE9F9"><B>Columna</B></TD>
+            <TD BGCOLOR="#DCE9F9"><B>Tipo</B></TD>
+        </TR>
+    
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER">PK</TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica"><B>vivienda_key</B></FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">BIGINT</FONT></TD>
+        </TR>
+        
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER"></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica">tipo_vivienda_cod</FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">DOUBLE</FONT></TD>
+        </TR>
+        
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER"></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica">tipo_vivienda</FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">TEXT</FONT></TD>
+        </TR>
+        </TABLE>>]
+		dim_materiales_vivienda [label=<
+    <TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="6" COLOR="#1F3A5F">
+        <TR>
+            <TD BGCOLOR="#0B2E63" COLSPAN="3">
+                <FONT COLOR="#FFFFFF"><B>dim_materiales_vivienda</B></FONT>
+            </TD>
+        </TR>
+        <TR>
+            <TD BGCOLOR="#DCE9F9"><B>Clave</B></TD>
+            <TD BGCOLOR="#DCE9F9"><B>Columna</B></TD>
+            <TD BGCOLOR="#DCE9F9"><B>Tipo</B></TD>
+        </TR>
+    
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER">PK</TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica"><B>materiales_vivienda_key</B></FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">BIGINT</FONT></TD>
+        </TR>
+        
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER"></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica">material_pared_cod</FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">DOUBLE</FONT></TD>
+        </TR>
+        
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER"></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica">material_pared</FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">TEXT</FONT></TD>
+        </TR>
+        
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER"></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica">material_piso_cod</FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">DOUBLE</FONT></TD>
+        </TR>
+        
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER"></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica">material_piso</FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">TEXT</FONT></TD>
+        </TR>
+        
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER"></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica">material_techo_cod</FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">DOUBLE</FONT></TD>
+        </TR>
+        
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER"></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica">material_techo</FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">TEXT</FONT></TD>
+        </TR>
+        
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER"></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica">vivienda_material_precario_ind</FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">BIGINT</FONT></TD>
+        </TR>
+        
+            <TR>
+                <TD BGCOLOR="#F1F1F1" COLSPAN="3" ALIGN="CENTER">
+                    <FONT POINT-SIZE="10"><I>+ 3 columnas adicionales</I></FONT>
+                </TD>
+            </TR>
+            </TABLE>>]
+		dim_habitabilidad [label=<
+    <TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="6" COLOR="#1F3A5F">
+        <TR>
+            <TD BGCOLOR="#0B2E63" COLSPAN="3">
+                <FONT COLOR="#FFFFFF"><B>dim_habitabilidad</B></FONT>
+            </TD>
+        </TR>
+        <TR>
+            <TD BGCOLOR="#DCE9F9"><B>Clave</B></TD>
+            <TD BGCOLOR="#DCE9F9"><B>Columna</B></TD>
+            <TD BGCOLOR="#DCE9F9"><B>Tipo</B></TD>
+        </TR>
+    
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER">PK</TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica"><B>habitabilidad_key</B></FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">BIGINT</FONT></TD>
+        </TR>
+        
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER"></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica">rango_habitaciones_total</FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">TEXT</FONT></TD>
+        </TR>
+        
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER"></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica">rango_habitaciones_dormir</FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">TEXT</FONT></TD>
+        </TR>
+        
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER"></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica">nbi_vivienda_inadecuada_ind</FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">BIGINT</FONT></TD>
+        </TR>
+        
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER"></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica">nbi_hacinamiento_ind</FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">BIGINT</FONT></TD>
+        </TR>
+        
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER"></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica">categoria_carencias</FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">TEXT</FONT></TD>
+        </TR>
+        
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER"></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica">brecha_multidimensional_ind</FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">BIGINT</FONT></TD>
+        </TR>
+        
+            <TR>
+                <TD BGCOLOR="#F1F1F1" COLSPAN="3" ALIGN="CENTER">
+                    <FONT POINT-SIZE="10"><I>+ 3 columnas adicionales</I></FONT>
+                </TD>
+            </TR>
+            </TABLE>>]
+	}
+	fact_hogar_bienestar [label=<
+    <TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="6" COLOR="#1F3A5F">
+        <TR>
+            <TD BGCOLOR="#0B2E63" COLSPAN="3">
+                <FONT COLOR="#FFFFFF"><B>fact_hogar_bienestar</B></FONT>
+            </TD>
+        </TR>
+        <TR>
+            <TD BGCOLOR="#DCE9F9"><B>Clave</B></TD>
+            <TD BGCOLOR="#DCE9F9"><B>Columna</B></TD>
+            <TD BGCOLOR="#DCE9F9"><B>Tipo</B></TD>
+        </TR>
+    
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER">PK</TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica"><B>hogar_id</B></FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">TEXT</FONT></TD>
+        </TR>
+        
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER">FK</TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica">tiempo_key</FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">BIGINT</FONT></TD>
+        </TR>
+        
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER">FK</TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica">geografia_key</FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">BIGINT</FONT></TD>
+        </TR>
+        
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER">FK</TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica">vivienda_key</FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">BIGINT</FONT></TD>
+        </TR>
+        
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER">FK</TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica">materiales_vivienda_key</FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">BIGINT</FONT></TD>
+        </TR>
+        
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER">FK</TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica">habitabilidad_key</FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">BIGINT</FONT></TD>
+        </TR>
+        
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER">FK</TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica">tenencia_propiedad_key</FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">BIGINT</FONT></TD>
+        </TR>
+        
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER">FK</TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica">agua_key</FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">BIGINT</FONT></TD>
+        </TR>
+        
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER">FK</TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica">saneamiento_key</FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">BIGINT</FONT></TD>
+        </TR>
+        
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER">FK</TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica">energia_key</FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">BIGINT</FONT></TD>
+        </TR>
+        
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER">FK</TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica">conectividad_key</FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">BIGINT</FONT></TD>
+        </TR>
+        
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER"></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica">factor_expansion</FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">DOUBLE</FONT></TD>
+        </TR>
+        
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER"></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica">total_carencias_bienestar_habitacional</FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">BIGINT</FONT></TD>
+        </TR>
+        
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER"></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica">brecha_multidimensional_ind</FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">BIGINT</FONT></TD>
+        </TR>
+        
+            <TR>
+                <TD BGCOLOR="#F1F1F1" COLSPAN="3" ALIGN="CENTER">
+                    <FONT POINT-SIZE="10"><I>+ 47 columnas adicionales</I></FONT>
+                </TD>
+            </TR>
+            </TABLE>>]
+	subgraph cluster_right {
+		rank=same
+		color=white
+		dim_tenencia_propiedad [label=<
+    <TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="6" COLOR="#1F3A5F">
+        <TR>
+            <TD BGCOLOR="#0B2E63" COLSPAN="3">
+                <FONT COLOR="#FFFFFF"><B>dim_tenencia_propiedad</B></FONT>
+            </TD>
+        </TR>
+        <TR>
+            <TD BGCOLOR="#DCE9F9"><B>Clave</B></TD>
+            <TD BGCOLOR="#DCE9F9"><B>Columna</B></TD>
+            <TD BGCOLOR="#DCE9F9"><B>Tipo</B></TD>
+        </TR>
+    
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER">PK</TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica"><B>tenencia_propiedad_key</B></FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">BIGINT</FONT></TD>
+        </TR>
+        
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER"></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica">tenencia_vivienda_cod</FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">BIGINT</FONT></TD>
+        </TR>
+        
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER"></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica">tenencia_vivienda</FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">TEXT</FONT></TD>
+        </TR>
+        </TABLE>>]
+		dim_agua [label=<
+    <TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="6" COLOR="#1F3A5F">
+        <TR>
+            <TD BGCOLOR="#0B2E63" COLSPAN="3">
+                <FONT COLOR="#FFFFFF"><B>dim_agua</B></FONT>
+            </TD>
+        </TR>
+        <TR>
+            <TD BGCOLOR="#DCE9F9"><B>Clave</B></TD>
+            <TD BGCOLOR="#DCE9F9"><B>Columna</B></TD>
+            <TD BGCOLOR="#DCE9F9"><B>Tipo</B></TD>
+        </TR>
+    
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER">PK</TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica"><B>agua_key</B></FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">BIGINT</FONT></TD>
+        </TR>
+        
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER"></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica">fuente_agua_cod</FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">BIGINT</FONT></TD>
+        </TR>
+        
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER"></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica">fuente_agua</FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">TEXT</FONT></TD>
+        </TR>
+        
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER"></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica">nivel_cloro_cod</FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">BIGINT</FONT></TD>
+        </TR>
+        
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER"></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica">nivel_cloro</FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">TEXT</FONT></TD>
+        </TR>
+        
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER"></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica">agua_red_publica_ind</FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">BIGINT</FONT></TD>
+        </TR>
+        
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER"></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica">agua_potable_ind</FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">BIGINT</FONT></TD>
+        </TR>
+        
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER"></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica">agua_todos_dias_ind</FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">BIGINT</FONT></TD>
+        </TR>
+        
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER"></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica">agua_segura_ind</FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">BIGINT</FONT></TD>
+        </TR>
+        
+            <TR>
+                <TD BGCOLOR="#F1F1F1" COLSPAN="3" ALIGN="CENTER">
+                    <FONT POINT-SIZE="10"><I>+ 1 columnas adicionales</I></FONT>
+                </TD>
+            </TR>
+            </TABLE>>]
+		dim_saneamiento [label=<
+    <TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="6" COLOR="#1F3A5F">
+        <TR>
+            <TD BGCOLOR="#0B2E63" COLSPAN="3">
+                <FONT COLOR="#FFFFFF"><B>dim_saneamiento</B></FONT>
+            </TD>
+        </TR>
+        <TR>
+            <TD BGCOLOR="#DCE9F9"><B>Clave</B></TD>
+            <TD BGCOLOR="#DCE9F9"><B>Columna</B></TD>
+            <TD BGCOLOR="#DCE9F9"><B>Tipo</B></TD>
+        </TR>
+    
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER">PK</TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica"><B>saneamiento_key</B></FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">BIGINT</FONT></TD>
+        </TR>
+        
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER"></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica">servicio_higienico_cod</FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">BIGINT</FONT></TD>
+        </TR>
+        
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER"></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica">servicio_higienico</FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">TEXT</FONT></TD>
+        </TR>
+        
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER"></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica">saneamiento_adecuado_ind</FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">BIGINT</FONT></TD>
+        </TR>
+        
+            <TR>
+                <TD BGCOLOR="#F1F1F1" COLSPAN="3" ALIGN="CENTER">
+                    <FONT POINT-SIZE="10"><I>+ 1 columnas adicionales</I></FONT>
+                </TD>
+            </TR>
+            </TABLE>>]
+		dim_energia [label=<
+    <TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="6" COLOR="#1F3A5F">
+        <TR>
+            <TD BGCOLOR="#0B2E63" COLSPAN="3">
+                <FONT COLOR="#FFFFFF"><B>dim_energia</B></FONT>
+            </TD>
+        </TR>
+        <TR>
+            <TD BGCOLOR="#DCE9F9"><B>Clave</B></TD>
+            <TD BGCOLOR="#DCE9F9"><B>Columna</B></TD>
+            <TD BGCOLOR="#DCE9F9"><B>Tipo</B></TD>
+        </TR>
+    
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER">PK</TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica"><B>energia_key</B></FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">BIGINT</FONT></TD>
+        </TR>
+        
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER"></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica">combustible_cocina_cod</FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">DOUBLE</FONT></TD>
+        </TR>
+        
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER"></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica">combustible_cocina</FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">TEXT</FONT></TD>
+        </TR>
+        
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER"></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica">tiene_electricidad_ind</FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">BIGINT</FONT></TD>
+        </TR>
+        
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER"></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica">combustible_limpio_ind</FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">BIGINT</FONT></TD>
+        </TR>
+        
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER"></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica">combustible_solido_ind</FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">BIGINT</FONT></TD>
+        </TR>
+        </TABLE>>]
+		dim_conectividad [label=<
+    <TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="6" COLOR="#1F3A5F">
+        <TR>
+            <TD BGCOLOR="#0B2E63" COLSPAN="3">
+                <FONT COLOR="#FFFFFF"><B>dim_conectividad</B></FONT>
+            </TD>
+        </TR>
+        <TR>
+            <TD BGCOLOR="#DCE9F9"><B>Clave</B></TD>
+            <TD BGCOLOR="#DCE9F9"><B>Columna</B></TD>
+            <TD BGCOLOR="#DCE9F9"><B>Tipo</B></TD>
+        </TR>
+    
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER">PK</TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica"><B>conectividad_key</B></FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">BIGINT</FONT></TD>
+        </TR>
+        
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER"></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica">tiene_telefono_fijo_ind</FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">BIGINT</FONT></TD>
+        </TR>
+        
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER"></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica">tiene_celular_ind</FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">BIGINT</FONT></TD>
+        </TR>
+        
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER"></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica">tiene_tv_cable_ind</FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">BIGINT</FONT></TD>
+        </TR>
+        
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER"></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica">tiene_internet_ind</FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">BIGINT</FONT></TD>
+        </TR>
+        
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER"></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica">sin_tic_ind</FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">BIGINT</FONT></TD>
+        </TR>
+        
+        <TR>
+            <TD BGCOLOR="#F8FBFF" ALIGN="CENTER"></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica">tiene_tdt_ind</FONT></TD>
+            <TD BGCOLOR="#F8FBFF" ALIGN="LEFT"><FONT FACE="Helvetica" POINT-SIZE="10">BIGINT</FONT></TD>
+        </TR>
+        </TABLE>>]
+	}
+	dim_agua -> fact_hogar_bienestar [arrowhead=crow arrowsize=0.8 arrowtail=none dir=forward fontname=Helvetica fontsize=10 headlabel="FK agua_key" taillabel="PK agua_key"]
+	dim_conectividad -> fact_hogar_bienestar [arrowhead=crow arrowsize=0.8 arrowtail=none dir=forward fontname=Helvetica fontsize=10 headlabel="FK conectividad_key" taillabel="PK conectividad_key"]
+	dim_energia -> fact_hogar_bienestar [arrowhead=crow arrowsize=0.8 arrowtail=none dir=forward fontname=Helvetica fontsize=10 headlabel="FK energia_key" taillabel="PK energia_key"]
+	dim_geografia -> fact_hogar_bienestar [arrowhead=crow arrowsize=0.8 arrowtail=none dir=forward fontname=Helvetica fontsize=10 headlabel="FK geografia_key" taillabel="PK geografia_key"]
+	dim_habitabilidad -> fact_hogar_bienestar [arrowhead=crow arrowsize=0.8 arrowtail=none dir=forward fontname=Helvetica fontsize=10 headlabel="FK habitabilidad_key" taillabel="PK habitabilidad_key"]
+	dim_materiales_vivienda -> fact_hogar_bienestar [arrowhead=crow arrowsize=0.8 arrowtail=none dir=forward fontname=Helvetica fontsize=10 headlabel="FK materiales_vivienda_key" taillabel="PK materiales_vivienda_key"]
+	dim_saneamiento -> fact_hogar_bienestar [arrowhead=crow arrowsize=0.8 arrowtail=none dir=forward fontname=Helvetica fontsize=10 headlabel="FK saneamiento_key" taillabel="PK saneamiento_key"]
+	dim_tenencia_propiedad -> fact_hogar_bienestar [arrowhead=crow arrowsize=0.8 arrowtail=none dir=forward fontname=Helvetica fontsize=10 headlabel="FK tenencia_propiedad_key" taillabel="PK tenencia_propiedad_key"]
+	dim_tiempo -> fact_hogar_bienestar [arrowhead=crow arrowsize=0.8 arrowtail=none dir=forward fontname=Helvetica fontsize=10 headlabel="FK tiempo_key" taillabel="PK tiempo_key"]
+	dim_vivienda -> fact_hogar_bienestar [arrowhead=crow arrowsize=0.8 arrowtail=none dir=forward fontname=Helvetica fontsize=10 headlabel="FK vivienda_key" taillabel="PK vivienda_key"]
+}
