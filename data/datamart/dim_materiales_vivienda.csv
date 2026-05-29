@@ -1,0 +1,194 @@
+﻿materiales_vivienda_key,material_pared_cod,material_pared,material_piso_cod,material_piso,material_techo_cod,material_techo,pared_precaria_ind,piso_precario_ind,techo_precario_ind,vivienda_material_precario_ind
+1,1.0,Ladrillo o bloque de cemento,2.0,"Láminas asfálticas, vinílicos o similares",1.0,Concreto armado,0,0,0,0
+2,3.0,Adobe,5.0,Cemento,4.0,"Planchas de calamina, fibra de cemento o similares",0,0,0,0
+3,1.0,Ladrillo o bloque de cemento,5.0,Cemento,1.0,Concreto armado,0,0,0,0
+4,3.0,Adobe,5.0,Cemento,5.0,Caña o estera con torta de barro o cemento,0,0,0,0
+5,1.0,Ladrillo o bloque de cemento,5.0,Cemento,4.0,"Planchas de calamina, fibra de cemento o similares",0,0,0,0
+6,3.0,Adobe,5.0,Cemento,3.0,Tejas,0,0,0,0
+7,1.0,Ladrillo o bloque de cemento,3.0,"Losetas, terrazos o similares",1.0,Concreto armado,0,0,0,0
+8,4.0,Tapia,4.0,Madera,4.0,"Planchas de calamina, fibra de cemento o similares",0,0,0,0
+9,4.0,Tapia,6.0,Tierra,4.0,"Planchas de calamina, fibra de cemento o similares",0,1,0,1
+10,4.0,Tapia,5.0,Cemento,4.0,"Planchas de calamina, fibra de cemento o similares",0,0,0,0
+11,1.0,Ladrillo o bloque de cemento,3.0,"Losetas, terrazos o similares",4.0,"Planchas de calamina, fibra de cemento o similares",0,0,0,0
+12,3.0,Adobe,4.0,Madera,4.0,"Planchas de calamina, fibra de cemento o similares",0,0,0,0
+13,7.0,Madera,5.0,Cemento,4.0,"Planchas de calamina, fibra de cemento o similares",1,0,0,1
+14,3.0,Adobe,6.0,Tierra,4.0,"Planchas de calamina, fibra de cemento o similares",0,1,0,1
+15,5.0,Quincha,6.0,Tierra,4.0,"Planchas de calamina, fibra de cemento o similares",1,1,0,1
+16,3.0,Adobe,6.0,Tierra,3.0,Tejas,0,1,0,1
+17,3.0,Adobe,3.0,"Losetas, terrazos o similares",4.0,"Planchas de calamina, fibra de cemento o similares",0,0,0,0
+18,1.0,Ladrillo o bloque de cemento,2.0,"Láminas asfálticas, vinílicos o similares",4.0,"Planchas de calamina, fibra de cemento o similares",0,0,0,0
+19,3.0,Adobe,3.0,"Losetas, terrazos o similares",3.0,Tejas,0,0,0,0
+20,9.0,Otro material,6.0,Tierra,3.0,Tejas,0,1,0,1
+21,9.0,Otro material,6.0,Tierra,4.0,"Planchas de calamina, fibra de cemento o similares",0,1,0,1
+22,9.0,Otro material,5.0,Cemento,3.0,Tejas,0,0,0,0
+23,7.0,Madera,6.0,Tierra,4.0,"Planchas de calamina, fibra de cemento o similares",1,1,0,1
+24,1.0,Ladrillo o bloque de cemento,4.0,Madera,2.0,Madera,0,0,0,0
+25,7.0,Madera,4.0,Madera,4.0,"Planchas de calamina, fibra de cemento o similares",1,0,0,1
+26,1.0,Ladrillo o bloque de cemento,6.0,Tierra,4.0,"Planchas de calamina, fibra de cemento o similares",0,1,0,1
+27,7.0,Madera,6.0,Tierra,7.0,Paja u hojas de palmera,1,1,1,1
+28,8.0,"Triplay, calamina o estera",5.0,Cemento,4.0,"Planchas de calamina, fibra de cemento o similares",1,0,0,1
+29,8.0,"Triplay, calamina o estera",6.0,Tierra,4.0,"Planchas de calamina, fibra de cemento o similares",1,1,0,1
+30,7.0,Madera,2.0,"Láminas asfálticas, vinílicos o similares",4.0,"Planchas de calamina, fibra de cemento o similares",1,0,0,1
+31,9.0,Otro material,6.0,Tierra,1.0,Concreto armado,0,1,0,1
+32,1.0,Ladrillo o bloque de cemento,5.0,Cemento,6.0,"Triplay, estera o carrizo",0,0,1,1
+33,1.0,Ladrillo o bloque de cemento,6.0,Tierra,1.0,Concreto armado,0,1,0,1
+34,3.0,Adobe,5.0,Cemento,6.0,"Triplay, estera o carrizo",0,0,1,1
+35,1.0,Ladrillo o bloque de cemento,5.0,Cemento,3.0,Tejas,0,0,0,0
+36,4.0,Tapia,6.0,Tierra,3.0,Tejas,0,1,0,1
+37,3.0,Adobe,5.0,Cemento,1.0,Concreto armado,0,0,0,0
+38,3.0,Adobe,6.0,Tierra,2.0,Madera,0,1,0,1
+39,1.0,Ladrillo o bloque de cemento,4.0,Madera,1.0,Concreto armado,0,0,0,0
+40,3.0,Adobe,5.0,Cemento,2.0,Madera,0,0,0,0
+41,-1.0,No especificado,-1.0,No especificado,-1.0,No especificado,-1,-1,-1,0
+42,1.0,Ladrillo o bloque de cemento,1.0,Parquet o madera pulida,1.0,Concreto armado,0,0,0,0
+43,9.0,Otro material,5.0,Cemento,4.0,"Planchas de calamina, fibra de cemento o similares",0,0,0,0
+44,1.0,Ladrillo o bloque de cemento,5.0,Cemento,5.0,Caña o estera con torta de barro o cemento,0,0,0,0
+45,1.0,Ladrillo o bloque de cemento,5.0,Cemento,2.0,Madera,0,0,0,0
+46,5.0,Quincha,6.0,Tierra,5.0,Caña o estera con torta de barro o cemento,1,1,0,1
+47,5.0,Quincha,5.0,Cemento,5.0,Caña o estera con torta de barro o cemento,1,0,0,1
+48,6.0,Piedra con barro,5.0,Cemento,3.0,Tejas,1,0,0,1
+49,6.0,Piedra con barro,6.0,Tierra,4.0,"Planchas de calamina, fibra de cemento o similares",1,1,0,1
+50,5.0,Quincha,6.0,Tierra,7.0,Paja u hojas de palmera,1,1,1,1
+51,3.0,Adobe,7.0,Otro material,3.0,Tejas,0,0,0,0
+52,3.0,Adobe,5.0,Cemento,8.0,Otro material,0,0,0,0
+53,1.0,Ladrillo o bloque de cemento,5.0,Cemento,8.0,Otro material,0,0,0,0
+54,6.0,Piedra con barro,6.0,Tierra,3.0,Tejas,1,1,0,1
+55,3.0,Adobe,6.0,Tierra,1.0,Concreto armado,0,1,0,1
+56,7.0,Madera,7.0,Otro material,4.0,"Planchas de calamina, fibra de cemento o similares",1,0,0,1
+57,3.0,Adobe,4.0,Madera,3.0,Tejas,0,0,0,0
+58,1.0,Ladrillo o bloque de cemento,4.0,Madera,4.0,"Planchas de calamina, fibra de cemento o similares",0,0,0,0
+59,3.0,Adobe,2.0,"Láminas asfálticas, vinílicos o similares",3.0,Tejas,0,0,0,0
+60,4.0,Tapia,5.0,Cemento,3.0,Tejas,0,0,0,0
+61,4.0,Tapia,4.0,Madera,3.0,Tejas,0,0,0,0
+62,8.0,"Triplay, calamina o estera",4.0,Madera,4.0,"Planchas de calamina, fibra de cemento o similares",1,0,0,1
+63,2.0,Piedra o sillar con cal o cemento,6.0,Tierra,1.0,Concreto armado,0,1,0,1
+64,6.0,Piedra con barro,6.0,Tierra,7.0,Paja u hojas de palmera,1,1,1,1
+65,6.0,Piedra con barro,4.0,Madera,4.0,"Planchas de calamina, fibra de cemento o similares",1,0,0,1
+66,9.0,Otro material,4.0,Madera,4.0,"Planchas de calamina, fibra de cemento o similares",0,0,0,0
+67,6.0,Piedra con barro,5.0,Cemento,4.0,"Planchas de calamina, fibra de cemento o similares",1,0,0,1
+68,4.0,Tapia,6.0,Tierra,7.0,Paja u hojas de palmera,0,1,1,1
+69,4.0,Tapia,3.0,"Losetas, terrazos o similares",4.0,"Planchas de calamina, fibra de cemento o similares",0,0,0,0
+70,3.0,Adobe,2.0,"Láminas asfálticas, vinílicos o similares",4.0,"Planchas de calamina, fibra de cemento o similares",0,0,0,0
+71,1.0,Ladrillo o bloque de cemento,6.0,Tierra,6.0,"Triplay, estera o carrizo",0,1,1,1
+72,7.0,Madera,5.0,Cemento,5.0,Caña o estera con torta de barro o cemento,1,0,0,1
+73,7.0,Madera,5.0,Cemento,6.0,"Triplay, estera o carrizo",1,0,1,1
+74,9.0,Otro material,5.0,Cemento,8.0,Otro material,0,0,0,0
+75,1.0,Ladrillo o bloque de cemento,4.0,Madera,5.0,Caña o estera con torta de barro o cemento,0,0,0,0
+76,1.0,Ladrillo o bloque de cemento,3.0,"Losetas, terrazos o similares",5.0,Caña o estera con torta de barro o cemento,0,0,0,0
+77,3.0,Adobe,3.0,"Losetas, terrazos o similares",5.0,Caña o estera con torta de barro o cemento,0,0,0,0
+78,3.0,Adobe,6.0,Tierra,5.0,Caña o estera con torta de barro o cemento,0,1,0,1
+79,3.0,Adobe,4.0,Madera,2.0,Madera,0,0,0,0
+80,7.0,Madera,6.0,Tierra,2.0,Madera,1,1,0,1
+81,9.0,Otro material,6.0,Tierra,7.0,Paja u hojas de palmera,0,1,1,1
+82,8.0,"Triplay, calamina o estera",6.0,Tierra,5.0,Caña o estera con torta de barro o cemento,1,1,0,1
+83,1.0,Ladrillo o bloque de cemento,2.0,"Láminas asfálticas, vinílicos o similares",3.0,Tejas,0,0,0,0
+84,5.0,Quincha,4.0,Madera,4.0,"Planchas de calamina, fibra de cemento o similares",1,0,0,1
+85,8.0,"Triplay, calamina o estera",5.0,Cemento,8.0,Otro material,1,0,0,1
+86,7.0,Madera,4.0,Madera,7.0,Paja u hojas de palmera,1,0,1,1
+87,7.0,Madera,6.0,Tierra,5.0,Caña o estera con torta de barro o cemento,1,1,0,1
+88,9.0,Otro material,5.0,Cemento,1.0,Concreto armado,0,0,0,0
+89,7.0,Madera,5.0,Cemento,2.0,Madera,1,0,0,1
+90,9.0,Otro material,7.0,Otro material,4.0,"Planchas de calamina, fibra de cemento o similares",0,0,0,0
+91,5.0,Quincha,5.0,Cemento,4.0,"Planchas de calamina, fibra de cemento o similares",1,0,0,1
+92,3.0,Adobe,6.0,Tierra,7.0,Paja u hojas de palmera,0,1,1,1
+93,2.0,Piedra o sillar con cal o cemento,5.0,Cemento,4.0,"Planchas de calamina, fibra de cemento o similares",0,0,0,0
+94,7.0,Madera,3.0,"Losetas, terrazos o similares",4.0,"Planchas de calamina, fibra de cemento o similares",1,0,0,1
+95,8.0,"Triplay, calamina o estera",4.0,Madera,7.0,Paja u hojas de palmera,1,0,1,1
+96,8.0,"Triplay, calamina o estera",5.0,Cemento,6.0,"Triplay, estera o carrizo",1,0,1,1
+97,1.0,Ladrillo o bloque de cemento,6.0,Tierra,5.0,Caña o estera con torta de barro o cemento,0,1,0,1
+98,8.0,"Triplay, calamina o estera",6.0,Tierra,6.0,"Triplay, estera o carrizo",1,1,1,1
+99,2.0,Piedra o sillar con cal o cemento,5.0,Cemento,1.0,Concreto armado,0,0,0,0
+100,3.0,Adobe,7.0,Otro material,4.0,"Planchas de calamina, fibra de cemento o similares",0,0,0,0
+101,6.0,Piedra con barro,7.0,Otro material,4.0,"Planchas de calamina, fibra de cemento o similares",1,0,0,1
+102,4.0,Tapia,6.0,Tierra,1.0,Concreto armado,0,1,0,1
+103,4.0,Tapia,6.0,Tierra,2.0,Madera,0,1,0,1
+104,3.0,Adobe,6.0,Tierra,6.0,"Triplay, estera o carrizo",0,1,1,1
+105,1.0,Ladrillo o bloque de cemento,1.0,Parquet o madera pulida,4.0,"Planchas de calamina, fibra de cemento o similares",0,0,0,0
+106,8.0,"Triplay, calamina o estera",7.0,Otro material,6.0,"Triplay, estera o carrizo",1,0,1,1
+107,3.0,Adobe,3.0,"Losetas, terrazos o similares",1.0,Concreto armado,0,0,0,0
+108,1.0,Ladrillo o bloque de cemento,1.0,Parquet o madera pulida,2.0,Madera,0,0,0,0
+109,5.0,Quincha,3.0,"Losetas, terrazos o similares",2.0,Madera,1,0,0,1
+110,1.0,Ladrillo o bloque de cemento,7.0,Otro material,1.0,Concreto armado,0,0,0,0
+111,5.0,Quincha,4.0,Madera,5.0,Caña o estera con torta de barro o cemento,1,0,0,1
+112,7.0,Madera,3.0,"Losetas, terrazos o similares",2.0,Madera,1,0,0,1
+113,8.0,"Triplay, calamina o estera",6.0,Tierra,8.0,Otro material,1,1,0,1
+114,3.0,Adobe,3.0,"Losetas, terrazos o similares",2.0,Madera,0,0,0,0
+115,7.0,Madera,4.0,Madera,8.0,Otro material,1,0,0,1
+116,4.0,Tapia,3.0,"Losetas, terrazos o similares",2.0,Madera,0,0,0,0
+117,7.0,Madera,4.0,Madera,3.0,Tejas,1,0,0,1
+118,1.0,Ladrillo o bloque de cemento,3.0,"Losetas, terrazos o similares",2.0,Madera,0,0,0,0
+119,7.0,Madera,5.0,Cemento,7.0,Paja u hojas de palmera,1,0,1,1
+120,4.0,Tapia,5.0,Cemento,2.0,Madera,0,0,0,0
+121,2.0,Piedra o sillar con cal o cemento,6.0,Tierra,4.0,"Planchas de calamina, fibra de cemento o similares",0,1,0,1
+122,2.0,Piedra o sillar con cal o cemento,3.0,"Losetas, terrazos o similares",1.0,Concreto armado,0,0,0,0
+123,8.0,"Triplay, calamina o estera",5.0,Cemento,5.0,Caña o estera con torta de barro o cemento,1,0,0,1
+124,1.0,Ladrillo o bloque de cemento,1.0,Parquet o madera pulida,3.0,Tejas,0,0,0,0
+125,1.0,Ladrillo o bloque de cemento,4.0,Madera,3.0,Tejas,0,0,0,0
+126,3.0,Adobe,6.0,Tierra,8.0,Otro material,0,1,0,1
+127,7.0,Madera,5.0,Cemento,8.0,Otro material,1,0,0,1
+128,1.0,Ladrillo o bloque de cemento,3.0,"Losetas, terrazos o similares",3.0,Tejas,0,0,0,0
+129,9.0,Otro material,6.0,Tierra,6.0,"Triplay, estera o carrizo",0,1,1,1
+130,7.0,Madera,6.0,Tierra,6.0,"Triplay, estera o carrizo",1,1,1,1
+131,9.0,Otro material,4.0,Madera,7.0,Paja u hojas de palmera,0,0,1,1
+132,9.0,Otro material,7.0,Otro material,7.0,Paja u hojas de palmera,0,0,1,1
+133,7.0,Madera,4.0,Madera,2.0,Madera,1,0,0,1
+134,1.0,Ladrillo o bloque de cemento,7.0,Otro material,4.0,"Planchas de calamina, fibra de cemento o similares",0,0,0,0
+135,4.0,Tapia,7.0,Otro material,4.0,"Planchas de calamina, fibra de cemento o similares",0,0,0,0
+136,7.0,Madera,4.0,Madera,5.0,Caña o estera con torta de barro o cemento,1,0,0,1
+137,1.0,Ladrillo o bloque de cemento,6.0,Tierra,3.0,Tejas,0,1,0,1
+138,5.0,Quincha,5.0,Cemento,2.0,Madera,1,0,0,1
+139,4.0,Tapia,6.0,Tierra,5.0,Caña o estera con torta de barro o cemento,0,1,0,1
+140,9.0,Otro material,5.0,Cemento,5.0,Caña o estera con torta de barro o cemento,0,0,0,0
+141,4.0,Tapia,5.0,Cemento,7.0,Paja u hojas de palmera,0,0,1,1
+142,5.0,Quincha,6.0,Tierra,3.0,Tejas,1,1,0,1
+143,4.0,Tapia,4.0,Madera,5.0,Caña o estera con torta de barro o cemento,0,0,0,0
+144,3.0,Adobe,5.0,Cemento,7.0,Paja u hojas de palmera,0,0,1,1
+145,7.0,Madera,6.0,Tierra,8.0,Otro material,1,1,0,1
+146,5.0,Quincha,5.0,Cemento,6.0,"Triplay, estera o carrizo",1,0,1,1
+147,4.0,Tapia,4.0,Madera,2.0,Madera,0,0,0,0
+148,3.0,Adobe,4.0,Madera,5.0,Caña o estera con torta de barro o cemento,0,0,0,0
+149,5.0,Quincha,4.0,Madera,2.0,Madera,1,0,0,1
+150,1.0,Ladrillo o bloque de cemento,6.0,Tierra,2.0,Madera,0,1,0,1
+151,5.0,Quincha,7.0,Otro material,4.0,"Planchas de calamina, fibra de cemento o similares",1,0,0,1
+152,2.0,Piedra o sillar con cal o cemento,6.0,Tierra,7.0,Paja u hojas de palmera,0,1,1,1
+153,4.0,Tapia,2.0,"Láminas asfálticas, vinílicos o similares",2.0,Madera,0,0,0,0
+154,9.0,Otro material,6.0,Tierra,8.0,Otro material,0,1,0,1
+155,5.0,Quincha,6.0,Tierra,6.0,"Triplay, estera o carrizo",1,1,1,1
+156,3.0,Adobe,2.0,"Láminas asfálticas, vinílicos o similares",1.0,Concreto armado,0,0,0,0
+157,3.0,Adobe,1.0,Parquet o madera pulida,3.0,Tejas,0,0,0,0
+158,3.0,Adobe,1.0,Parquet o madera pulida,4.0,"Planchas de calamina, fibra de cemento o similares",0,0,0,0
+159,1.0,Ladrillo o bloque de cemento,2.0,"Láminas asfálticas, vinílicos o similares",2.0,Madera,0,0,0,0
+160,9.0,Otro material,4.0,Madera,2.0,Madera,0,0,0,0
+161,7.0,Madera,1.0,Parquet o madera pulida,4.0,"Planchas de calamina, fibra de cemento o similares",1,0,0,1
+162,7.0,Madera,6.0,Tierra,3.0,Tejas,1,1,0,1
+163,8.0,"Triplay, calamina o estera",7.0,Otro material,4.0,"Planchas de calamina, fibra de cemento o similares",1,0,0,1
+164,1.0,Ladrillo o bloque de cemento,5.0,Cemento,7.0,Paja u hojas de palmera,0,0,1,1
+165,1.0,Ladrillo o bloque de cemento,6.0,Tierra,8.0,Otro material,0,1,0,1
+166,2.0,Piedra o sillar con cal o cemento,6.0,Tierra,2.0,Madera,0,1,0,1
+167,2.0,Piedra o sillar con cal o cemento,6.0,Tierra,3.0,Tejas,0,1,0,1
+168,9.0,Otro material,2.0,"Láminas asfálticas, vinílicos o similares",1.0,Concreto armado,0,0,0,0
+169,4.0,Tapia,3.0,"Losetas, terrazos o similares",3.0,Tejas,0,0,0,0
+170,4.0,Tapia,1.0,Parquet o madera pulida,3.0,Tejas,0,0,0,0
+171,4.0,Tapia,5.0,Cemento,1.0,Concreto armado,0,0,0,0
+172,2.0,Piedra o sillar con cal o cemento,2.0,"Láminas asfálticas, vinílicos o similares",1.0,Concreto armado,0,0,0,0
+173,8.0,"Triplay, calamina o estera",7.0,Otro material,5.0,Caña o estera con torta de barro o cemento,1,0,0,1
+174,7.0,Madera,5.0,Cemento,1.0,Concreto armado,1,0,0,1
+175,9.0,Otro material,6.0,Tierra,5.0,Caña o estera con torta de barro o cemento,0,1,0,1
+176,7.0,Madera,5.0,Cemento,3.0,Tejas,1,0,0,1
+177,3.0,Adobe,2.0,"Láminas asfálticas, vinílicos o similares",2.0,Madera,0,0,0,0
+178,4.0,Tapia,4.0,Madera,7.0,Paja u hojas de palmera,0,0,1,1
+179,4.0,Tapia,7.0,Otro material,3.0,Tejas,0,0,0,0
+180,3.0,Adobe,1.0,Parquet o madera pulida,1.0,Concreto armado,0,0,0,0
+181,4.0,Tapia,1.0,Parquet o madera pulida,4.0,"Planchas de calamina, fibra de cemento o similares",0,0,0,0
+182,3.0,Adobe,4.0,Madera,1.0,Concreto armado,0,0,0,0
+183,5.0,Quincha,6.0,Tierra,8.0,Otro material,1,1,0,1
+184,9.0,Otro material,5.0,Cemento,6.0,"Triplay, estera o carrizo",0,0,1,1
+185,4.0,Tapia,2.0,"Láminas asfálticas, vinílicos o similares",3.0,Tejas,0,0,0,0
+186,4.0,Tapia,5.0,Cemento,5.0,Caña o estera con torta de barro o cemento,0,0,0,0
+187,4.0,Tapia,4.0,Madera,1.0,Concreto armado,0,0,0,0
+188,7.0,Madera,4.0,Madera,6.0,"Triplay, estera o carrizo",1,0,1,1
+189,3.0,Adobe,4.0,Madera,7.0,Paja u hojas de palmera,0,0,1,1
+190,2.0,Piedra o sillar con cal o cemento,4.0,Madera,4.0,"Planchas de calamina, fibra de cemento o similares",0,0,0,0
+191,9.0,Otro material,5.0,Cemento,2.0,Madera,0,0,0,0
+192,7.0,Madera,3.0,"Losetas, terrazos o similares",1.0,Concreto armado,1,0,0,1
+193,8.0,"Triplay, calamina o estera",6.0,Tierra,7.0,Paja u hojas de palmera,1,1,1,1

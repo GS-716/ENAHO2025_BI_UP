@@ -2,3 +2,5 @@
 # Windows / Google Drive
 [Dd]esktop.ini
 Thumbs.db
+
+.env

@@ -1,0 +1,11 @@
+﻿saneamiento_key,servicio_higienico_cod,servicio_higienico,saneamiento_adecuado_ind,nbi_sin_servicio_higienico_ind
+1,1,Red pública de desagüe dentro de la vivienda,1,0
+2,2,Red pública de desagüe fuera de la vivienda,1,0
+3,5,Pozo ciego o negro,0,0
+4,4,"Pozo séptico, tanque séptico o biodigestor",1,0
+5,9,Campo abierto o al aire libre,0,1
+6,7,Otra,0,1
+7,6,"Río, acequia, canal o similar",0,1
+8,10,Letrina sin tratamiento,0,0
+9,3,Letrina con tratamiento,1,0
+10,11,Letrina tipo compostera,0,0

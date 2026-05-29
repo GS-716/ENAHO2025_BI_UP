@@ -1,0 +1,51 @@
+﻿agua_key,fuente_agua_cod,fuente_agua,nivel_cloro_cod,nivel_cloro,agua_red_publica_ind,agua_potable_ind,cloro_seguro_ind,agua_todos_dias_ind,agua_segura_ind
+1,1,Red pública dentro de la vivienda,1,Seguro,1,1,1,1,1
+2,1,Red pública dentro de la vivienda,2,Inadecuada dosificación de cloro,1,1,0,1,0
+3,1,Red pública dentro de la vivienda,3,Sin cloro,1,1,0,1,0
+4,2,Red pública fuera de la vivienda pero dentro del edificio,2,Inadecuada dosificación de cloro,1,1,0,1,0
+5,1,Red pública dentro de la vivienda,2,Inadecuada dosificación de cloro,1,1,0,0,0
+6,1,Red pública dentro de la vivienda,3,Sin cloro,1,0,0,1,0
+7,1,Red pública dentro de la vivienda,3,Sin cloro,1,1,0,0,0
+8,2,Red pública fuera de la vivienda pero dentro del edificio,1,Seguro,1,0,1,0,0
+9,1,Red pública dentro de la vivienda,3,Sin cloro,1,0,0,0,0
+10,5,Pozo,3,Sin cloro,0,-1,0,-1,0
+11,8,"Río, acequia, lago o laguna",3,Sin cloro,0,-1,0,-1,0
+12,1,Red pública dentro de la vivienda,1,Seguro,1,0,1,1,0
+13,4,Camión cisterna u otro similar,3,Sin cloro,0,-1,0,-1,0
+14,4,Camión cisterna u otro similar,2,Inadecuada dosificación de cloro,0,-1,0,-1,0
+15,7,Otra,3,Sin cloro,0,-1,0,-1,0
+16,2,Red pública fuera de la vivienda pero dentro del edificio,1,Seguro,1,1,1,1,1
+17,2,Red pública fuera de la vivienda pero dentro del edificio,3,Sin cloro,1,1,0,1,0
+18,1,Red pública dentro de la vivienda,2,Inadecuada dosificación de cloro,1,0,0,1,0
+19,6,Manantial o puquio,3,Sin cloro,0,-1,0,-1,0
+20,3,Pilón o pileta de uso público,3,Sin cloro,0,1,0,0,0
+21,3,Pilón o pileta de uso público,2,Inadecuada dosificación de cloro,0,1,0,0,0
+22,3,Pilón o pileta de uso público,3,Sin cloro,0,0,0,0,0
+23,3,Pilón o pileta de uso público,1,Seguro,0,1,1,0,1
+24,3,Pilón o pileta de uso público,2,Inadecuada dosificación de cloro,0,1,0,1,0
+25,1,Red pública dentro de la vivienda,1,Seguro,1,1,1,0,1
+26,2,Red pública fuera de la vivienda pero dentro del edificio,3,Sin cloro,1,0,0,1,0
+27,7,Otra,1,Seguro,0,-1,1,-1,0
+28,2,Red pública fuera de la vivienda pero dentro del edificio,1,Seguro,1,0,1,1,0
+29,1,Red pública dentro de la vivienda,1,Seguro,1,0,1,0,0
+30,6,Manantial o puquio,2,Inadecuada dosificación de cloro,0,-1,0,-1,0
+31,4,Camión cisterna u otro similar,1,Seguro,0,-1,1,-1,0
+32,2,Red pública fuera de la vivienda pero dentro del edificio,3,Sin cloro,1,1,0,0,0
+33,7,Otra,2,Inadecuada dosificación de cloro,0,-1,0,-1,0
+34,3,Pilón o pileta de uso público,3,Sin cloro,0,1,0,1,0
+35,2,Red pública fuera de la vivienda pero dentro del edificio,2,Inadecuada dosificación de cloro,1,0,0,1,0
+36,3,Pilón o pileta de uso público,3,Sin cloro,0,0,0,1,0
+37,5,Pozo,1,Seguro,0,-1,1,-1,0
+38,2,Red pública fuera de la vivienda pero dentro del edificio,3,Sin cloro,1,0,0,0,0
+39,2,Red pública fuera de la vivienda pero dentro del edificio,1,Seguro,1,1,1,0,1
+40,3,Pilón o pileta de uso público,1,Seguro,0,1,1,1,1
+41,1,Red pública dentro de la vivienda,2,Inadecuada dosificación de cloro,1,0,0,0,0
+42,8,"Río, acequia, lago o laguna",2,Inadecuada dosificación de cloro,0,-1,0,-1,0
+43,2,Red pública fuera de la vivienda pero dentro del edificio,2,Inadecuada dosificación de cloro,1,1,0,0,0
+44,3,Pilón o pileta de uso público,2,Inadecuada dosificación de cloro,0,0,0,1,0
+45,5,Pozo,2,Inadecuada dosificación de cloro,0,-1,0,-1,0
+46,8,"Río, acequia, lago o laguna",1,Seguro,0,-1,1,-1,0
+47,2,Red pública fuera de la vivienda pero dentro del edificio,2,Inadecuada dosificación de cloro,1,0,0,0,0
+48,3,Pilón o pileta de uso público,2,Inadecuada dosificación de cloro,0,0,0,0,0
+49,3,Pilón o pileta de uso público,1,Seguro,0,0,1,1,0
+50,3,Pilón o pileta de uso público,1,Seguro,0,0,1,0,0
