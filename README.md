@@ -21,7 +21,7 @@ Grano:
 
 
 
-<img src="src/outputs/diagrams/erd_enaho2025_resumen_compacto.png" alt="Modelo relacional" width="800">
+
 
 
 
@@ -269,6 +269,10 @@ Tabla de hechos central del datamart que registra un hogar por fila, consolidand
 | brecha_multidimensional_ind           |       | BIGINT           | Indicador derivado brecha_multidimensional_ind.                                    | Sí       |
 
 ---
+
+# DIAGRAMA MODELO ESTRELLA
+
+<img src="src/outputs/diagrams/erd_enaho2025_resumen_compacto.png" alt="Modelo relacional" width="800">
 
 ## Referencias
 
