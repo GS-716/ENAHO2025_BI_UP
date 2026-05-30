@@ -290,41 +290,38 @@ Tabla de hechos central del datamart que registra un hogar por fila, consolidand
 
 ## Referencias
 
-Alkire, S., & Foster, J. (2007, revisado en 2008). *Counting and multidimensional poverty measurement* (OPHI Working Paper No. 7). Oxford Poverty and Human Development Initiative. https://ophi.org.uk/sites/default/files/ophi-wp7_vs2.pdf
+Alkire, S., & Foster, J. (2007, revisado en 2008). Counting and multidimensional poverty measurement (OPHI Working Paper No. 7). Oxford Poverty and Human Development Initiative. https://ophi.org.uk/sites/default/files/ophi-wp7_vs2.pdf
 
-Clausen, J., Barrantes, N., Trivelli, C., & Salas, F. (2025). Evaluating poverty in all its forms and dimensions: Monetary, multidimensional, and subjective poverty in Peru. *Social Indicators Research, 179*, 861–893. https://doi.org/10.1007/s11205-025-03641-7
+Banco Mundial. (2022). La vivienda en el Perú: Un instrumento para la recuperación económica inclusiva y resiliente. https://documents1.worldbank.org/curated/en/214201645586293949/pdf/Housing-in-Peru-An-Instrument-for-Inclusive-and-Resilient-Economic-Recovery.pdf
 
-Deaton, A. (1997). *The analysis of household surveys: A microeconometric approach to development policy*. Johns Hopkins University Press.
+Clausen, J., Barrantes, N., Trivelli, C., & Salas, F. (2025). Evaluating poverty in all its forms and dimensions: Monetary, multidimensional, and subjective poverty in Peru. Social Indicators Research, 179, 861–893. https://doi.org/10.1007/s11205-025-03641-7
 
-Feres, J. C., & Mancero, X. (2001). *El método de las necesidades básicas insatisfechas y sus aplicaciones en América Latina*. Comisión Económica para América Latina y el Caribe.
+Deaton, A. (1997). The analysis of household surveys: A microeconometric approach to development policy. Johns Hopkins University Press.
 
-Flores-Cueto, J. J., Hernández, R. M., & Garay-Argandoña, R. (2020). Tecnologías de información: Acceso a internet y brecha digital en Perú. *Revista Venezolana de Gerencia, 25*(90), 504–527.
+Feres, J. C., & Mancero, X. (2001). El método de las necesidades básicas insatisfechas y sus aplicaciones en América Latina. Comisión Económica para América Latina y el Caribe.
 
-Galarza, F. B., Carbajal, M., & Aguirre, J. (2022). *Willingness to pay for improved water service: Evidence from urban Peru*. Peruvian Economic Association.
+Flores-Cueto, J. J., Hernández, R. M., & Garay-Argandoña, R. (2020). Tecnologías de información: Acceso a internet y brecha digital en Perú. Revista Venezolana de Gerencia, 25(90), 504–527.
 
-Instituto Nacional de Estadística e Informática. (2025a). *Encuesta Nacional de Hogares sobre Condiciones de Vida y Pobreza — ENAHO 2025: Módulo de características de la vivienda y del hogar* [Microdatos]. [https://proyectos.inei.gob.pe/microdatos/](https://proyectos.inei.gob.pe/microdatos/Detalle_Encuesta.asp?CU=19558&CodEncuesta=1031&CodModulo=01&NombreEncuesta=Condiciones+de+Vida+y+Pobreza+-+ENAHO&NombreModulo=Caracter%C3%ADsticas+de+la+Vivienda+y+del+Hogar)
+Galarza, F. B., Carbajal, M., & Aguirre, J. (2022). Willingness to pay for improved water service: Evidence from urban Peru. Peruvian Economic Association.
 
-Instituto Nacional de Estadística e Informática. (2025b). *Perú: Tecnologías de información y comunicación en los hogares, II trimestre 2025*. https://www.inei.gob.pe/biblioteca-virtual/boletines/tecnologias-de-la-informacion-y-comunicacion/
+Instituto Nacional de Estadística e Informática. (s.f.). Información institucional. Plataforma del Estado Peruano. https://www.gob.pe/institucion/inei/institucional
 
-Kimball, R., & Ross, M. (2013). *The data warehouse toolkit: The definitive guide to dimensional modeling* (3.ª ed.). John Wiley & Sons.
+Instituto Nacional de Estadística e Informática. (2025a). Encuesta Nacional de Hogares sobre Condiciones de Vida y Pobreza — ENAHO 2025: Módulo de características de la vivienda y del hogar [Microdatos]. https://proyectos.inei.gob.pe/microdatos/
 
-Lorentzen, J. C., Johanson, G., Björk, F., & Stensson, S. (2022). Overcrowding and hazardous dwelling condition characteristics. *International Journal of Environmental Research and Public Health, 19*(23), 15542. https://doi.org/10.3390/ijerph192315542
+Instituto Nacional de Estadística e Informática. (2025b). Perú: Tecnologías de información y comunicación en los hogares, II trimestre 2025. https://www.inei.gob.pe/biblioteca-virtual/boletines/tecnologias-de-la-informacion-y-comunicacion/
 
-Moody, D. L., & Kortink, M. A. R. (2000). From enterprise models to dimensional models: A methodology for data warehouse and data mart design. En M. Jeusfeld, H. Shu, M. Staudt & G. Vossen (Eds.), *Proceedings of the 2nd International Workshop on Design and Management of Data Warehouses (DMDW'2000)* (pp. 5-1–5-12). CEUR Workshop Proceedings. https://ceur-ws.org/Vol-28/paper5.pdf
+Instituto Nacional de Estadística e Informática. (2025e). Perú: Acceso al agua potable y saneamiento básico [Resultados ENAHO IV trimestre 2024]. https://gestion.pe/economia/agua-y-desague-los-millones-que-se-dejaron-de-invertir-en-obras-de-saneamiento-en-el-peru-como-esta-la-brecha-noticia/
 
-Naciones Unidas. (2021). *Metadata for Sustainable Development Goal indicator 11.1.1*. United Nations Statistics Division. https://unstats.un.org/sdgs/metadata/?Text=&Goal=11&Target=11.1
+Kimball, R., & Ross, M. (2013). The data warehouse toolkit: The definitive guide to dimensional modeling (3.ª ed.). John Wiley & Sons.
 
-Neon. (2024). *Neon documentation: Introduction to Neon serverless Postgres*. https://neon.com/docs/introduction
+Lorentzen, J. C., Johanson, G., Björk, F., & Stensson, S. (2022). Overcrowding and hazardous dwelling condition characteristics. International Journal of Environmental Research and Public Health, 19(23), 15542. https://doi.org/10.3390/ijerph192315542
 
-Rahm, E., & Do, H. H. (2000). Data cleaning: Problems and current approaches. *IEEE Data Engineering Bulletin, 23*(4), 3–13.
+Moody, D. L., & Kortink, M. A. R. (2000). From enterprise models to dimensional models: A methodology for data warehouse and data mart design. En M. Jeusfeld, H. Shu, M. Staudt & G. Vossen (Eds.), Proceedings of the 2nd International Workshop on Design and Management of Data Warehouses (DMDW'2000) (pp. 5-1–5-12). CEUR Workshop Proceedings. https://ceur-ws.org/Vol-28/paper5.pdf
 
-Banco Mundial. (2022). La vivienda en el Perú: Un instrumento para la recuperación
-  económica inclusiva y resiliente. https://documents1.worldbank.org/curated/en/
-  214201645586293949/pdf/Housing-in-Peru-An-Instrument-for-Inclusive-and-
-  Resilient-Economic-Recovery.pdf
+Naciones Unidas. (2021). Metadata for Sustainable Development Goal indicator 11.1.1. United Nations Statistics Division. https://unstats.un.org/sdgs/metadata/?Text=&Goal=11&Target=11.1
+Neon. (2024). Neon documentation: Introduction to Neon serverless Postgres. https://neon.com/docs/introduction
 
-Instituto Nacional de Estadística e Informática. (s.f.). Información institucional.
-  Plataforma del Estado Peruano. https://www.gob.pe/institucion/inei/institucional
+Rahm, E., & Do, H. H. (2000). Data cleaning: Problems and current approaches. IEEE Data Engineering Bulletin, 23(4), 3–13.
 
 Instituto Nacional de Estadística e Informática. (2025e). Perú: Acceso al agua
   potable y saneamiento básico [Resultados ENAHO IV trimestre 2024].
