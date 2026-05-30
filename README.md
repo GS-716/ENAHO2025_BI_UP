@@ -19,6 +19,9 @@ fact\_condiciones\_hogar
 Grano:
 1 hogar encuestado
 
+Link para ingresar al NeonDB: https://console.neon.tech/app/projects/broad-darkness-49139138
+### Profesor, le dimos acceso a su correo de la up.
+
 
 # Marco Teórico del Datamart de Bienestar Habitacional, Servicios y Conectividad (ENAHO)
 
