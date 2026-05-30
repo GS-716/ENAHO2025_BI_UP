@@ -20,11 +20,6 @@ Grano:
 1 hogar encuestado
 
 
-
-
-
-
-
 # Marco Teórico del Datamart de Bienestar Habitacional, Servicios y Conectividad (ENAHO)
 
 El análisis del bienestar habitacional exige integrar dimensiones de vulnerabilidad que no pueden capturarse mediante un único indicador. La pobreza monetaria, las necesidades básicas insatisfechas (NBI), la habitabilidad, el acceso a servicios, la conectividad digital y el gasto del hogar son fenómenos interdependientes que requieren una infraestructura de datos especialmente diseñada. Un datamart de propósito específico responde a este requerimiento al concentrar en un modelo dimensional la información necesaria para el análisis multidimensional del bienestar.
@@ -268,11 +263,11 @@ Tabla de hechos central del datamart que registra un hogar por fila, consolidand
 | carencia_internet_ind                 |       | BIGINT           | Indicador derivado carencia_internet_ind.                                          | Sí       |
 | brecha_multidimensional_ind           |       | BIGINT           | Indicador derivado brecha_multidimensional_ind.                                    | Sí       |
 
----
-
 # DIAGRAMA MODELO ESTRELLA
 
 <img src="src/outputs/diagrams/erd_enaho2025_resumen_compacto.png" alt="Modelo relacional" width="800">
+
+---
 
 ## Referencias
 
