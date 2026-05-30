@@ -317,3 +317,16 @@ Naciones Unidas. (2021). *Metadata for Sustainable Development Goal indicator 11
 Neon. (2024). *Neon documentation: Introduction to Neon serverless Postgres*. https://neon.com/docs/introduction
 
 Rahm, E., & Do, H. H. (2000). Data cleaning: Problems and current approaches. *IEEE Data Engineering Bulletin, 23*(4), 3–13.
+
+Banco Mundial. (2022). La vivienda en el Perú: Un instrumento para la recuperación
+  económica inclusiva y resiliente. https://documents1.worldbank.org/curated/en/
+  214201645586293949/pdf/Housing-in-Peru-An-Instrument-for-Inclusive-and-
+  Resilient-Economic-Recovery.pdf
+
+Instituto Nacional de Estadística e Informática. (s.f.). Información institucional.
+  Plataforma del Estado Peruano. https://www.gob.pe/institucion/inei/institucional
+
+Instituto Nacional de Estadística e Informática. (2025e). Perú: Acceso al agua
+  potable y saneamiento básico [Resultados ENAHO IV trimestre 2024].
+  https://gestion.pe/economia/agua-y-desague-los-millones-que-se-dejaron-de-
+  invertir-en-obras-de-saneamiento-en-el-peru-como-esta-la-brecha-noticia/
