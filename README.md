@@ -94,9 +94,9 @@ Dimensión que describe la ubicación geográfica de cada hogar encuestado, incl
 | dominio       |       | TEXT             | Etiqueta del dominio geográfico.                  | No       |
 | estrato_cod   |       | TEXT             | Código de estrato geográfico.                     | No       |
 | estrato       |       | TEXT             | Etiqueta del estrato geográfico.                  | No       |
-| latitud       |       | DOUBLE PRECISION | Latitud del registro cuando está disponible.      | Sí       |
-| longitud      |       | DOUBLE PRECISION | Longitud del registro cuando está disponible.     | Sí       |
-| altitud       |       | DOUBLE PRECISION | Altitud del registro cuando está disponible.      | Sí       |
+| latitud       |       | FLOAT | Latitud del registro cuando está disponible.      | Sí       |
+| longitud      |       | FLOAT | Longitud del registro cuando está disponible.     | Sí       |
+| altitud       |       | FLOAT | Altitud del registro cuando está disponible.      | Sí       |
 
 ---
 
