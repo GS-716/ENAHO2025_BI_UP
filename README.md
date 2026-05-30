@@ -71,6 +71,17 @@ Del mismo modo, existen diferencias importantes en el gasto que realizan los hog
 
 Frente a esta problemática, se propone el desarrollo de un datamart orientado al análisis de las condiciones de vivienda y acceso a servicios básicos de los hogares peruanos, utilizando información del módulo 100 de la ENAHO 2025. El objetivo es integrar, transformar y estructurar los datos mediante procesos ETL y modelado dimensional, facilitando la generación de indicadores y dashboards que permitan identificar patrones, comparar niveles de acceso y analizar las diferencias existentes entre hogares, regiones y grupos poblacionales.
 
+---
+
+| Columna    | PK/FK | Tipo de dato | Definición                                      | Nullable |
+|------------|-------|--------------|------------------------------------------------|----------|
+| tiempo_key | PK    | BIGINT       | Identificador único de combinación temporal.   | No       |
+| anio       |       | TEXT         | Año de la encuesta.                            | No       |
+| mes        |       | TEXT         | Mes de ejecución de la encuesta.               | No       |
+| periodo    |       | TEXT         | Periodo de ejecución de la encuesta.           | No       |
+
+---
+
 ## Referencias
 
 Alkire, S., & Foster, J. (2007, revisado en 2008). *Counting and multidimensional poverty measurement* (OPHI Working Paper No. 7). Oxford Poverty and Human Development Initiative. https://ophi.org.uk/sites/default/files/ophi-wp7_vs2.pdf
