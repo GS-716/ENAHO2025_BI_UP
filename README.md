@@ -73,6 +73,8 @@ Frente a esta problemática, se propone el desarrollo de un datamart orientado a
 
 ---
 
+dim_tiempo: Dimensión que registra los atributos temporales asociados a cada registro de la encuesta, permitiendo el análisis del bienestar habitacional por año, mes y periodo de ejecución de la ENAHO.
+
 | Columna    | PK/FK | Tipo de dato | Definición                                      | Nullable |
 |------------|-------|--------------|------------------------------------------------|----------|
 | tiempo_key | PK    | BIGINT       | Identificador único de combinación temporal.   | No       |
