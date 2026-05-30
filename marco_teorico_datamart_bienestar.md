@@ -6,7 +6,7 @@ El sustento teórico descansa en el paradigma de la pobreza multidimensional. Al
 
 ## Fuente de datos: ENAHO, Módulo de Características de la Vivienda y del Hogar
 
-La fuente primaria de este trabajo es el Módulo 100 (Características de la Vivienda y del Hogar) de la Encuesta Nacional de Hogares sobre Condiciones de Vida y Pobreza (ENAHO), producida por el Instituto Nacional de Estadística e Informática del Perú (INEI). Los microdatos corresponden al periodo 2024 y fueron obtenidos del repositorio oficial del INEI (2025a). La ENAHO tiene cobertura nacional, representatividad urbana y rural, y desagregación departamental, lo que la convierte en la fuente más adecuada para el análisis del bienestar habitacional en el contexto peruano (Clausen et al., 2025). La unidad de análisis es el hogar, y sus variables registran condiciones estructurales de la vivienda, acceso a servicios básicos, tenencia y equipamiento.
+La fuente primaria de este trabajo es el Módulo 100 (Características de la Vivienda y del Hogar) de la Encuesta Nacional de Hogares sobre Condiciones de Vida y Pobreza (ENAHO), producida por el Instituto Nacional de Estadística e Informática del Perú (INEI). Los microdatos corresponden al periodo 2025 y fueron obtenidos del repositorio oficial del INEI (2025a). La ENAHO tiene cobertura nacional, representatividad urbana y rural, y desagregación departamental, lo que la convierte en la fuente más adecuada para el análisis del bienestar habitacional en el contexto peruano (Clausen et al., 2025). La unidad de análisis es el hogar, y sus variables registran condiciones estructurales de la vivienda, acceso a servicios básicos, tenencia y equipamiento.
 
 ## El Modelo Dimensional como Fundamento Estructural
 
