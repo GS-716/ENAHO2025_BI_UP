@@ -1,5 +1,3 @@
-<img width="1525" height="577" alt="image" src="https://github.com/user-attachments/assets/e2578bbf-5ab0-46d0-b364-019f0185af5b" /># ENAHO2025\_BI\_UP
-
 Fuente principal:
 ENAHO01-2025-100.csv
 
