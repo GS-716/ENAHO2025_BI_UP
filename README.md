@@ -1,4 +1,4 @@
-# ENAHO2025\_BI\_UP
+<img width="1525" height="577" alt="image" src="https://github.com/user-attachments/assets/e2578bbf-5ab0-46d0-b364-019f0185af5b" /># ENAHO2025\_BI\_UP
 
 Fuente principal:
 ENAHO01-2025-100.csv
@@ -97,6 +97,178 @@ Dimensión que describe la ubicación geográfica de cada hogar encuestado, incl
 | latitud       |       | FLOAT | Latitud del registro cuando está disponible.      | Sí       |
 | longitud      |       | FLOAT | Longitud del registro cuando está disponible.     | Sí       |
 | altitud       |       | FLOAT | Altitud del registro cuando está disponible.      | Sí       |
+
+## Dim_vivienda
+Dimensión que clasifica los hogares según el tipo de vivienda que habitan, asociando cada código con su descripción correspondiente.
+
+| Columna          | PK/FK | Tipo de dato | Definición                          | Nullable |
+|------------------|-------|--------------|-------------------------------------|----------|
+| vivienda_key     | PK    | BIGINT       | Identificador de tipo de vivienda.  | No       |
+| tipo_vivienda_cod|       | TEXT         | Código del tipo de vivienda.        | Sí       |
+| tipo_vivienda    |       | TEXT         | Descripción del tipo de vivienda.   | Sí       |
+
+## Dim_materiales_vivienda
+Dimensión que registra los materiales predominantes en paredes, pisos y techos de la vivienda, incluyendo indicadores de precariedad estructural para cada elemento y para la vivienda en su conjunto.
+
+| Columna                        | PK/FK | Tipo de dato | Definición                                                  | Nullable |
+|--------------------------------|-------|--------------|-------------------------------------------------------------|----------|
+| materiales_vivienda_key        | PK    | BIGINT       | Identificador de combinación de materiales.                 | No       |
+| material_pared_cod             |       | TEXT         | Código del material predominante en paredes exteriores.     | Sí       |
+| material_pared                 |       | TEXT         | Etiqueta del material predominante en paredes exteriores.   | Sí       |
+| material_piso_cod              |       | TEXT         | Código del material predominante en pisos.                  | Sí       |
+| material_piso                  |       | TEXT         | Etiqueta del material predominante en pisos.                | Sí       |
+| material_techo_cod             |       | TEXT         | Código del material predominante en techos.                 | Sí       |
+| material_techo                 |       | TEXT         | Etiqueta del material predominante en techos.               | Sí       |
+| pared_precaria_ind             |       | BIGINT       | Indica pared precaria.                                      | Sí       |
+| piso_precario_ind              |       | BIGINT       | Indica piso precario.                                       | Sí       |
+| techo_precario_ind             |       | BIGINT       | Indica techo precario.                                      | Sí       |
+| vivienda_material_precario_ind |       | BIGINT       | Indica si existe al menos un material precario.             | Sí       |
+
+## Dim_habitabilidad
+Dimensión que caracteriza las condiciones de habitabilidad del hogar a partir de los indicadores NBI oficiales de la ENAHO, incluyendo clasificaciones de hacinamiento, carencias acumuladas y una medida sintética de brecha multidimensional.
+
+| Columna                        | PK/FK | Tipo de dato | Definición                                                  | Nullable |
+|--------------------------------|-------|--------------|-------------------------------------------------------------|----------|
+| habitabilidad_key              | PK    | BIGINT       | Identificador de categoría de habitabilidad.                | No       |
+| rango_habitaciones_total       |       | TEXT         | Rango de habitaciones totales.                              | Sí       |
+| rango_habitaciones_dormir      |       | TEXT         | Rango de habitaciones usadas para dormir.                   | Sí       |
+| nbi_vivienda_inadecuada_ind    |       | BIGINT       | Indicador ENAHO de vivienda inadecuada.                     | Sí       |
+| nbi_hacinamiento_ind           |       | BIGINT       | Indicador ENAHO de hacinamiento.                            | Sí       |
+| nbi_sin_servicio_higienico_ind |       | BIGINT       | Indicador ENAHO de hogar sin servicio higiénico.            | Sí       |
+| nbi_ninios_no_asisten_ind      |       | BIGINT       | Indicador ENAHO de niños que no asisten a la escuela.       | Sí       |
+| nbi_alta_dependencia_ind       |       | BIGINT       | Indicador ENAHO de alta dependencia económica.              | Sí       |
+| categoria_carencias            |       | TEXT         | Clasificación ordinal del total de carencias.               | Sí       |
+| brecha_multidimensional_ind    |       | BIGINT       | Hogar con brecha multidimensional.                          | No       |
+
+## Dim_tenencia_propiedad
+Dimensión que clasifica los hogares según el régimen de tenencia de su vivienda, diferenciando modalidades como propiedad, alquiler u otras formas de ocupación.
+
+| Columna               | PK/FK | Tipo de dato | Definición                                  | Nullable |
+|-----------------------|-------|--------------|---------------------------------------------|----------|
+| tenencia_propiedad_key| PK    | BIGINT       | Identificador del régimen de tenencia.      | No       |
+| tenencia_vivienda_cod |       | TEXT         | Código del régimen de tenencia.             | Sí       |
+| tenencia_vivienda     |       | TEXT         | Descripción del régimen de tenencia.        | Sí       |
+
+## Dim_agua
+Dimensión que caracteriza el acceso al agua del hogar según la fuente de abastecimiento, la calidad del suministro y su disponibilidad, incluyendo indicadores de seguridad hídrica derivados de la ENAHO.
+
+| Columna              | PK/FK | Tipo de dato | Definición                                                   | Nullable |
+|----------------------|-------|--------------|--------------------------------------------------------------|----------|
+| agua_key             | PK    | BIGINT       | Identificador de combinación de acceso y seguridad del agua. | No       |
+| fuente_agua_cod      |       | TEXT         | Código de fuente principal de agua.                          | Sí       |
+| fuente_agua          |       | TEXT         | Descripción de la fuente principal de agua.                  | Sí       |
+| nivel_cloro_cod      |       | TEXT         | Código del nivel de cloro residual.                          | Sí       |
+| nivel_cloro          |       | TEXT         | Descripción del nivel de cloro residual.                     | Sí       |
+| agua_red_publica_ind |       | BIGINT       | Acceso a agua por red pública.                               | Sí       |
+| agua_potable_ind     |       | BIGINT       | Agua declarada potable.                                      | Sí       |
+| cloro_seguro_ind     |       | BIGINT       | Nivel de cloro seguro.                                       | Sí       |
+| agua_todos_dias_ind  |       | BIGINT       | Disponibilidad de agua todos los días.                       | Sí       |
+| agua_segura_ind      |       | BIGINT       | Agua segura estricta.                                        | Sí       |
+
+## Dim_saneamiento
+Dimensión que clasifica el tipo de servicio higiénico disponible en el hogar e incluye indicadores sobre la adecuación del saneamiento y la carencia registrada como NBI.
+
+| Columna                        | PK/FK | Tipo de dato | Definición                                       | Nullable |
+|--------------------------------|-------|--------------|--------------------------------------------------|----------|
+| saneamiento_key                | PK    | BIGINT       | Identificador de tipo de saneamiento.            | No       |
+| servicio_higienico_cod         |       | TEXT         | Código recodificado del servicio higiénico.      | Sí       |
+| servicio_higienico             |       | TEXT         | Descripción del servicio higiénico.              | Sí       |
+| saneamiento_adecuado_ind       |       | BIGINT       | Saneamiento considerado adecuado.                | Sí       |
+| nbi_sin_servicio_higienico_ind |       | BIGINT       | NBI de hogar sin servicio higiénico.             | Sí       |
+
+
+## Dim_energia
+Dimensión que caracteriza el acceso a energía del hogar según el tipo de alumbrado eléctrico y el combustible utilizado para cocinar, incluyendo indicadores de uso de combustibles limpios y contaminantes.
+
+| Columna                | PK/FK | Tipo de dato | Definición                                      | Nullable |
+|------------------------|-------|--------------|-------------------------------------------------|----------|
+| energia_key            | PK    | BIGINT       | Identificador de energía y combustible.         | No       |
+| combustible_cocina_cod |       | TEXT         | Código del combustible principal para cocinar.  | Sí       |
+| combustible_cocina     |       | TEXT         | Descripción del combustible principal.          | Sí       |
+| tiene_electricidad_ind |       | BIGINT       | Hogar tiene alumbrado eléctrico.                | Sí       |
+| combustible_limpio_ind |       | BIGINT       | Uso de combustible limpio para cocinar.         | Sí       |
+| combustible_solido_ind |       | BIGINT       | Uso de combustible sólido/contaminante.         | Sí       |
+
+
+## Dim_conectividad
+Dimensión que registra la disponibilidad de tecnologías de información y comunicación en el hogar, incluyendo telefonía, televisión por suscripción, internet y un indicador de exclusión digital total.
+
+| Columna                | PK/FK | Tipo de dato | Definición                                                   | Nullable |
+|------------------------|-------|--------------|--------------------------------------------------------------|----------|
+| conectividad_key       | PK    | BIGINT       | Identificador de combinación TIC.                            | No       |
+| tiene_telefono_fijo_ind|       | BIGINT       | Hogar tiene teléfono fijo.                                   | Sí       |
+| tiene_celular_ind      |       | BIGINT       | Hogar tiene teléfono celular.                                | Sí       |
+| tiene_tv_cable_ind     |       | BIGINT       | Hogar tiene TV por cable o satelital.                        | Sí       |
+| tiene_internet_ind     |       | BIGINT       | Hogar tiene conexión a internet fijo o móvil.                | Sí       |
+| sin_tic_ind            |       | BIGINT       | Hogar no tiene teléfono fijo, celular, TV cable ni internet. | Sí       |
+| tiene_tdt_ind          |       | BIGINT       | Hogar tiene Televisión Digital Terrestre.                    | Sí       |
+
+## Fact_hogar_bienestar
+Tabla de hechos central del datamart que registra un hogar por fila, consolidando las claves foráneas hacia todas las dimensiones junto con las métricas numéricas y los indicadores derivados de habitabilidad, servicios, conectividad y gasto.
+
+| Columna                               | PK/FK | Tipo de dato     | Definición                                                                         | Nullable |
+|---------------------------------------|-------|------------------|------------------------------------------------------------------------------------|----------|
+| hogar_id                              | PK    | TEXT             | Identificador único del hogar en el datamart.                                      | No       |
+| conglome                              |       | TEXT             | Campo original CONGLOME conservado para trazabilidad.                              | No       |
+| vivienda                              |       | TEXT             | Campo original VIVIENDA conservado para trazabilidad.                              | No       |
+| hogar                                 |       | TEXT             | Campo original HOGAR conservado para trazabilidad.                                 | No       |
+| tiempo_key                            | FK    | BIGINT           | Clave foránea hacia dim_tiempo.                                                    | No       |
+| geografia_key                         | FK    | BIGINT           | Clave foránea hacia dim_geografia.                                                 | No       |
+| vivienda_key                          | FK    | BIGINT           | Clave foránea hacia dim_vivienda.                                                  | No       |
+| materiales_vivienda_key               | FK    | BIGINT           | Clave foránea hacia dim_materiales_vivienda.                                       | No       |
+| habitabilidad_key                     | FK    | BIGINT           | Clave foránea hacia dim_habitabilidad.                                             | No       |
+| tenencia_propiedad_key                | FK    | BIGINT           | Clave foránea hacia dim_tenencia_propiedad.                                        | No       |
+| agua_key                              | FK    | BIGINT           | Clave foránea hacia dim_agua.                                                      | No       |
+| saneamiento_key                       | FK    | BIGINT           | Clave foránea hacia dim_saneamiento.                                               | No       |
+| energia_key                           | FK    | BIGINT           | Clave foránea hacia dim_energia.                                                   | No       |
+| conectividad_key                      | FK    | BIGINT           | Clave foránea hacia dim_conectividad.                                              | No       |
+| factor_expansion                      |       | FLOAT | Factor de expansión del hogar.                                                     | Sí       |
+| habitaciones_total                    |       | FLOAT | Número total de habitaciones, sin baño, cocina, pasadizos ni garaje.               | Sí       |
+| habitaciones_dormir                   |       | FLOAT | Número de habitaciones usadas exclusivamente para dormir.                          | Sí       |
+| alquiler_mensual_reportado            |       | FLOAT | Monto mensual reportado por alquiler o compra.                                     | Sí       |
+| alquiler_estimado_mensual             |       | FLOAT | Alquiler mensual estimado si se alquilara la vivienda.                             | Sí       |
+| alquiler_anual_imputado               |       | FLOAT | Alquiler/compra imputado, deflactado y anualizado.                                 | Sí       |
+| alquiler_estimado_anual_imputado      |       | FLOAT | Alquiler estimado imputado, deflactado y anualizado.                               | Sí       |
+| horas_agua_dia                        |       | FLOAT | Horas de abastecimiento de agua por día.                                           | Sí       |
+| dias_agua_semana                      |       | FLOAT | Días de abastecimiento de agua por semana.                                         | Sí       |
+| gasto_anual_servicios_pagado_hogar    |       | FLOAT | Gasto anual imputado en servicios pagado por miembros del hogar.                   | Sí       |
+| gasto_anual_servicios_donado          |       | FLOAT | Gasto anual imputado en servicios donado/regalado por otro hogar.                  | Sí       |
+| gasto_anual_servicios_autoconsumo     |       | FLOAT | Gasto anual imputado por autoconsumo/autosuministro.                               | Sí       |
+| gasto_anual_servicios_total           |       | FLOAT | Gasto anual total imputado en servicios.                                           | Sí       |
+| gasto_mensual_servicios_estimado      |       | FLOAT | Estimación mensual del gasto total en servicios.                                   | Sí       |
+| total_carencias_bienestar_habitacional|       | BIGINT           | Número total de carencias del hogar.                                               | Sí       |
+| agua_red_publica_ind                  |       | BIGINT           | Indicador derivado agua_red_publica_ind.                                           | Sí       |
+| agua_potable_ind                      |       | BIGINT           | Indicador derivado agua_potable_ind.                                               | Sí       |
+| cloro_seguro_ind                      |       | BIGINT           | Indicador derivado cloro_seguro_ind.                                               | Sí       |
+| agua_todos_dias_ind                   |       | BIGINT           | Indicador derivado agua_todos_dias_ind.                                            | Sí       |
+| agua_segura_ind                       |       | BIGINT           | Indicador derivado agua_segura_ind.                                                | Sí       |
+| saneamiento_adecuado_ind              |       | BIGINT           | Indicador derivado saneamiento_adecuado_ind.                                       | Sí       |
+| pared_precaria_ind                    |       | BIGINT           | Indicador derivado pared_precaria_ind.                                             | Sí       |
+| piso_precario_ind                     |       | BIGINT           | Indicador derivado piso_precario_ind.                                              | Sí       |
+| techo_precario_ind                    |       | BIGINT           | Indicador derivado techo_precario_ind.                                             | Sí       |
+| vivienda_material_precario_ind        |       | BIGINT           | Indicador derivado vivienda_material_precario_ind.                                 | Sí       |
+| nbi_vivienda_inadecuada_ind           |       | BIGINT           | Indicador derivado nbi_vivienda_inadecuada_ind.                                    | Sí       |
+| nbi_hacinamiento_ind                  |       | BIGINT           | Indicador derivado nbi_hacinamiento_ind.                                           | Sí       |
+| nbi_sin_servicio_higienico_ind        |       | BIGINT           | Indicador derivado nbi_sin_servicio_higienico_ind.                                 | Sí       |
+| nbi_ninios_no_asisten_ind             |       | BIGINT           | Indicador derivado nbi_ninios_no_asisten_ind.                                      | Sí       |
+| nbi_alta_dependencia_ind              |       | BIGINT           | Indicador derivado nbi_alta_dependencia_ind.                                       | Sí       |
+| tiene_electricidad_ind                |       | BIGINT           | Indicador derivado tiene_electricidad_ind.                                         | Sí       |
+| combustible_limpio_ind                |       | BIGINT           | Indicador derivado combustible_limpio_ind.                                         | Sí       |
+| combustible_solido_ind                |       | BIGINT           | Indicador derivado combustible_solido_ind.                                         | Sí       |
+| tiene_telefono_fijo_ind               |       | BIGINT           | Indicador derivado tiene_telefono_fijo_ind.                                        | Sí       |
+| tiene_celular_ind                     |       | BIGINT           | Indicador derivado tiene_celular_ind.                                              | Sí       |
+| tiene_tv_cable_ind                    |       | BIGINT           | Indicador derivado tiene_tv_cable_ind.                                             | Sí       |
+| tiene_internet_ind                    |       | BIGINT           | Indicador derivado tiene_internet_ind.                                             | Sí       |
+| sin_tic_ind                           |       | BIGINT           | Indicador derivado sin_tic_ind.                                                    | Sí       |
+| tiene_tdt_ind                         |       | BIGINT           | Indicador derivado tiene_tdt_ind.                                                  | Sí       |
+| carencia_materiales_vivienda_ind      |       | BIGINT           | Indicador derivado carencia_materiales_vivienda_ind.                               | Sí       |
+| carencia_hacinamiento_ind             |       | BIGINT           | Indicador derivado carencia_hacinamiento_ind.                                      | Sí       |
+| carencia_agua_segura_ind              |       | BIGINT           | Indicador derivado carencia_agua_segura_ind.                                       | Sí       |
+| carencia_saneamiento_ind              |       | BIGINT           | Indicador derivado carencia_saneamiento_ind.                                       | Sí       |
+| carencia_electricidad_ind             |       | BIGINT           | Indicador derivado carencia_electricidad_ind.                                      | Sí       |
+| carencia_combustible_limpio_ind       |       | BIGINT           | Indicador derivado carencia_combustible_limpio_ind.                                | Sí       |
+| carencia_internet_ind                 |       | BIGINT           | Indicador derivado carencia_internet_ind.                                          | Sí       |
+| brecha_multidimensional_ind           |       | BIGINT           | Indicador derivado brecha_multidimensional_ind.                                    | Sí       |
 
 ---
 
