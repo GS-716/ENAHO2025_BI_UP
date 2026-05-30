@@ -83,6 +83,21 @@ Dimensión que registra los atributos temporales asociados a cada registro de la
 | mes        |       | TEXT         | Mes de ejecución de la encuesta.               | No       |
 | periodo    |       | TEXT         | Periodo de ejecución de la encuesta.           | No       |
 
+## Dim_geografia
+Dimensión que describe la ubicación geográfica de cada hogar encuestado, incluyendo el código UBIGEO, el dominio y estrato geográfico, y las coordenadas espaciales cuando están disponibles.
+
+| Columna       | PK/FK | Tipo de dato     | Definición                                        | Nullable |
+|---------------|-------|------------------|---------------------------------------------------|----------|
+| geografia_key | PK    | BIGINT           | Identificador único de combinación geográfica.    | No       |
+| ubigeo        |       | TEXT             | Código de ubicación geográfica del hogar.         | No       |
+| dominio_cod   |       | TEXT             | Código de dominio geográfico.                     | No       |
+| dominio       |       | TEXT             | Etiqueta del dominio geográfico.                  | No       |
+| estrato_cod   |       | TEXT             | Código de estrato geográfico.                     | No       |
+| estrato       |       | TEXT             | Etiqueta del estrato geográfico.                  | No       |
+| latitud       |       | DOUBLE PRECISION | Latitud del registro cuando está disponible.      | Sí       |
+| longitud      |       | DOUBLE PRECISION | Longitud del registro cuando está disponible.     | Sí       |
+| altitud       |       | DOUBLE PRECISION | Altitud del registro cuando está disponible.      | Sí       |
+
 ---
 
 ## Referencias
