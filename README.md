@@ -220,7 +220,7 @@ Tabla de hechos central del datamart que registra un hogar por fila, consolidand
 
 | Columna                               | PK/FK | Tipo de dato     | Definición                                                                         | Nullable |
 |---------------------------------------|-------|------------------|------------------------------------------------------------------------------------|----------|
-| fact_hogar_bienestar_key              | PK    | TEXT             | Identificador único del hogar en el datamart.                                      | No       |
+| fact_hogar_bienestar_key              | PK    | INT              | Identificador único del hogar en el datamart.                                      | No       |
 | conglome                              |       | TEXT             | Campo original CONGLOME conservado para trazabilidad.                              | No       |
 | vivienda                              |       | TEXT             | Campo original VIVIENDA conservado para trazabilidad.                              | No       |
 | hogar                                 |       | TEXT             | Campo original HOGAR conservado para trazabilidad.                                 | No       |
