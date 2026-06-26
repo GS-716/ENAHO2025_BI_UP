@@ -20,6 +20,7 @@ Grano:
 1 hogar encuestado
 
 Link para ingresar al NeonDB: https://console.neon.tech/app/projects/broad-darkness-49139138
+Link para visualizar el Dashboard Hosteado en un servicio cloud: https://enaho2025-bi-up.onrender.com/ 
 ### Profesor, le dimos acceso a su correo de la up.
 
 
